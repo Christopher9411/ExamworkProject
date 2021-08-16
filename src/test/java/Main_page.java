@@ -18,6 +18,7 @@ public class Main_page {
     private static final By LOGOUT_BUTTON = cssSelector(".ahigh");
 
 
+
     //REGISTRATION
     private static final By REGISTRATION_EMAIL_ADRESS = xpath("//input[@id='nick']");
     private static final By REGISTRATION_PASSWORD = xpath("passwd");
@@ -27,6 +28,7 @@ public class Main_page {
     private static final By REGISTRATION_CONFIRM = xpath("//*[@id=\"regsubmit\"]");
     private static final By TERMS_OF_SERVICE_CHECKBOX = cssSelector(".input--checkbox__checkbox");
     private static final By CAPTCHA_BOX = xpath("//*[@class='recaptcha-checkbox-border']");
+    private static final By CAPTCHA_TICK_BOX = cssSelector(".recaptcha-checkbox-border]");
 
 
     public static void register() {
@@ -44,9 +46,10 @@ public class Main_page {
         webpage.sendKeys("http//1234.hu");
         WebElement terms_of_service = driver.findElement((TERMS_OF_SERVICE_CHECKBOX));
         terms_of_service.click();
-
-
-
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(CAPTCHA_TICK_BOX));
+        WebElement captcha_box = driver.findElement(CAPTCHA_TICK_BOX);
+        captcha_box.click();
     }
 
 
@@ -57,8 +60,8 @@ public class Main_page {
         password.sendKeys("teszt123");
         WebElement login_button = driver.findElement((LOGIN_BUTTON));
         login_button.click();
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ahigh")));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/Rights/logout']")));
         WebElement logout_button = driver.findElement(LOGOUT_BUTTON);
         Assert.assertTrue(logout_button.isDisplayed());
 
@@ -68,6 +71,7 @@ public class Main_page {
     public static void logout() {
         WebElement logout = driver.findElement((LOGOUT_BUTTON));
         logout.click();
+
         Assert.assertEquals("https://kilepes.blog.hu/", "https://kilepes.blog.hu/");
     }
 
@@ -81,6 +85,8 @@ public class Main_page {
         password.sendKeys(credential[1]);
         WebElement login_button = driver.findElement((LOGIN_BUTTON));
         login_button.click();
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/Rights/logout']")));
         WebElement logout = driver.findElement(LOGOUT_BUTTON);
         Assertions.assertEquals(true, logout.isDisplayed()); //ellenőrzés hogy a kilépési gomb meg van-e jelenítve
         driver.close();

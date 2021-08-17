@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,6 +18,7 @@ public class Privacy_Page {
         //WebElement e = driver.findElement(By.xpath("//*[@id=\"navilast\"]"));
         String text = e.getText();
         System.out.println(text);
+        Assertions.assertEquals("Adatvédelmi tájékoztató", text);
     }
 
 

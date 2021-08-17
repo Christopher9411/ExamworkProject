@@ -1,0 +1,1 @@
+{"uuid":"6ac61fd8-6dd5-4381-8797-c924812c333c","name":"Adatvédelmi információk szövegfájlba történő kiírása","children":["bdcbb355-589c-4575-977e-5ad3e2b82a05"],"befores":[],"afters":[{"name":"Close","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629201463599,"stop":1629201463767}],"links":[],"start":1629201463319,"stop":1629201463841}

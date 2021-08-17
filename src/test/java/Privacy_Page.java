@@ -10,9 +10,10 @@ public class Privacy_Page {
     public static void save_privacy_text() {
         WebElement privacy_policy = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
         privacy_policy.click();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"navilast\"]")));
-
+        WebElement e = driver.findElement(By.xpath(" //*[@href='/adatkezeles/']"));
+        WebDriverWait webdriverwait = new WebDriverWait(driver,5);
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@href='/adatkezeles/']")));
         //WebElement e = driver.findElement(By.xpath("//*[@id=\"navilast\"]"));
         String text = e.getText();
         System.out.println(text);

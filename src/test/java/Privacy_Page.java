@@ -3,14 +3,12 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
-import java.util.concurrent.TimeUnit;
 
 import static org.openqa.selenium.By.xpath;
 
@@ -37,7 +35,7 @@ public class Privacy_Page {
     public static void print_Privacy_into_file() {
         WebElement privacy_policy = driver.findElement(PRIVACY_MENU);
         privacy_policy.click();
-       // WebElement e = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
+        // WebElement e = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
         WebElement e = driver.findElement(PRIVACY_TEXT);
         //obtain text
         String s = e.getText();
@@ -49,7 +47,29 @@ public class Privacy_Page {
         } catch (IOException exc) {
             exc.printStackTrace();
         }
+
+        int lines = 0;
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader("Privacy.txt"));
+            while (reader.readLine() != null) lines++;
+            reader.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        Assertions.assertEquals(1, lines);
     }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

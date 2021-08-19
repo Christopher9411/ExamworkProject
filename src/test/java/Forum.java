@@ -96,9 +96,7 @@ public class Forum {
         WebElement search_button = driver.findElement((SEARCH_BUTTON));
         search_button.click();
         WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[1]")));
-        WebElement page2 = driver.findElement((PAGE_2));
-        page2.click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[1]"))).click();
         WebElement page3 = driver.findElement(PAGE_3);
         page3.click();
         WebElement page4 = driver.findElement((PAGE_4));

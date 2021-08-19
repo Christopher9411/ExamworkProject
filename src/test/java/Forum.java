@@ -2,6 +2,8 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,7 +18,8 @@ public class Forum {
     private static final By SEARCH_BUTTON = By.xpath("//*[contains(@class,'btnok')]");
 
     //Forum pages
-    private static final By PAGE_2 = By.cssSelector("#maintd > form:nth-child(2) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(2)");
+   // private static final By PAGE_2 = By.cssSelector("#maintd > form:nth-child(2) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(2)");
+    private static final By PAGE_2 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[1]");
     private static final By PAGE_3 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[4]");
     private static final By PAGE_4 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[5]");
     private static final By PAGE_5 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[6]");
@@ -92,6 +95,8 @@ public class Forum {
         search_field.sendKeys("kutya");
         WebElement search_button = driver.findElement((SEARCH_BUTTON));
         search_button.click();
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[1]")));
         WebElement page2 = driver.findElement((PAGE_2));
         page2.click();
         WebElement page3 = driver.findElement(PAGE_3);

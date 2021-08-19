@@ -18,7 +18,7 @@ class WriteToText{
         //URL launch
         driver.get("https://forum.index.hu/adatkezeles/");
         // identify element
-        WebElement e = driver.findElement(By.cssSelector("#navilast"));
+        WebElement e = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
         //obtain text
         String s = e.getText();
         //write text to file

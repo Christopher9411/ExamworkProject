@@ -107,7 +107,7 @@ public class ForumTestPOM {
             @Test
             @DisplayName("Adatvédelmi információk szövegfájlba történő kiírása")
             public void writeprivacytextintodocument() {
-                Privacy_Page.save_privacy_text();
+                Privacy_Page.print_Privacy_into_file();
 
 
             }

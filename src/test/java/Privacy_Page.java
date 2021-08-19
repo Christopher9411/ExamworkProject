@@ -43,7 +43,7 @@ public class Privacy_Page {
         String s = e.getText();
         //write text to file
 
-        File f = new File("savetxt.txt");
+        File f = new File("Privacy.txt");
         try {
             FileUtils.writeStringToFile(f, s, Charset.defaultCharset());
         } catch (IOException exc) {

@@ -30,14 +30,5 @@ public class FileUtil {
         }
         return result;
     }
-
-    public static void writeToFile(String privacy_text) {
-        try {
-            FileWriter textFile = new FileWriter("Privacy.txt");
-            textFile.close();
-        } catch (IOException e) {
-            e.getMessage();
-        }
-
-    }
 }
+

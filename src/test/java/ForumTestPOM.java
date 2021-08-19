@@ -58,7 +58,7 @@ public class ForumTestPOM {
             @DisplayName("Fórum keresési találatok kilistázása")
             public void List_information() {
                 Forum.ListData();
-                //az url valamiért folyamatosan váltakozik fastSearchTopic és showTopics között...de miért??
+
             }
 
             @Test

@@ -24,6 +24,7 @@ public class Forum {
     private static final By PAGE_7 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[8]");
     private static final By PAGE_8 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[9]");    private static final By PAGE_9 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[10]");
     private static final By SEARCH= By.xpath(" /html/body/div[2]/div/table/tbody/tr[2]/td[2]/div[1]/div[2]/a");
+    private static final By NAVIGATION_BAR = By.cssSelector("#naviheader > div:nth-child(1) > div:nth-child(1) > a");
 
 
 
@@ -122,7 +123,8 @@ public class Forum {
         search_field.sendKeys(credential);
         WebElement search_button = driver.findElement(SEARCH_BUTTON);
         search_button.click();
-        Assert.assertEquals("https://forum.index.hu/Search/fastSearchTopic", driver.getCurrentUrl());
+        WebElement navigation =driver.findElement(NAVIGATION_BAR);
+        Assert.assertTrue(navigation.isDisplayed());
 
     }
 

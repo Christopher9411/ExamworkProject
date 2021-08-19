@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class Profile {
+public class Settings {
     static WebDriver driver = Util.getDriver();
     //  private static final By SEARCH_FIELD = By.cssSelector(".inp");
     private static final By SETTINGS = By.cssSelector(".boxbold > li:nth-child(3)");

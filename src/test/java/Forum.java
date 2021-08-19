@@ -3,6 +3,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.concurrent.TimeUnit;
+
+import static org.junit.Assert.assertTrue;
+
+
 public class Forum {
     static WebDriver driver = Util.getDriver();
 
@@ -18,7 +23,7 @@ public class Forum {
     private static final By PAGE_6 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[7]");
     private static final By PAGE_7 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[8]");
     private static final By PAGE_8 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[9]");    private static final By PAGE_9 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[10]");
-
+    private static final By SEARCH= By.xpath(" /html/body/div[2]/div/table/tbody/tr[2]/td[2]/div[1]/div[2]/a");
 
 
 
@@ -39,8 +44,11 @@ public class Forum {
         search_field.sendKeys("autó");
         WebElement search_button = driver.findElement(SEARCH_BUTTON);
         search_button.click();
-        String topic_listing = driver.getCurrentUrl();
-        Assert.assertEquals("https://forum.index.hu/Search/fastSearchTopic", topic_listing);
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+      //  String topic_listing = driver.getCurrentUrl();
+       WebElement search= driver.findElement(SEARCH);
+        //Assert.assertEquals("https://forum.index.hu/Topic/showTopicList", topic_listing);
+        Assert.assertTrue(search.isDisplayed());
         //optionally put scrolling down here
     }
 

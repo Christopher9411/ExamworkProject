@@ -58,6 +58,7 @@ public class ForumTestPOM {
             @DisplayName("Fórum keresési találatok kilistázása")
             public void List_information() {
                 Forum.ListData();
+                //az url valamiért folyamatosan váltakozik fastSearchTopic és showTopics között...de miért??
             }
 
             @Test
@@ -82,7 +83,7 @@ public class ForumTestPOM {
             @DisplayName("Profil információk hozzáadása")
             public void add_profile_information() {
                 Main_page.login();
-                Profile.Add_data();
+                Settings.Add_data();
 
             }
 
@@ -91,7 +92,7 @@ public class ForumTestPOM {
             @DisplayName("Profil információk módosítása")
             public void modify_profile_informations() {
                 Main_page.login();
-                Profile.modify_data();
+                Settings.modify_data();
             }
 
 
@@ -99,7 +100,7 @@ public class ForumTestPOM {
             @DisplayName("Profil információk eltávolítása")
             public void remove_information() {
                 Main_page.login();
-                Profile.DataRemove();
+                Settings.DataRemove();
             }
 
 

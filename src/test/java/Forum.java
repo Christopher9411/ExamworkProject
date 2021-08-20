@@ -22,13 +22,13 @@ public class Forum {
    // private static final By PAGE_2 = By.cssSelector("#maintd > form:nth-child(2) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(2)");
     private static final By PAGE_2 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[1]");
     private static final By PAGE_3 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[4]");
-    private static final By PAGE_4 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[5]");
-    private static final By PAGE_5 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[6]");
-    private static final By PAGE_6 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[7]");
-    private static final By PAGE_7 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[8]");
-    private static final By PAGE_8 = By.xpath("/html/body/div[3]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[9]");
-    private static final By PAGE_9 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[10]");
-    private static final By SEARCH= By.xpath(" /html/body/div[2]/div/table/tbody/tr[2]/td[2]/div[1]/div[2]/a");
+    private static final By PAGE_4 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[5]");
+    private static final By PAGE_5 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[6]");
+    private static final By PAGE_6 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[7]");
+    private static final By PAGE_7 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[8]");
+    private static final By PAGE_8 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[9]");
+    private static final By PAGE_9 = By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[10]");
+    private static final By FORUM_HEADER= By.xpath(" //*[@id=\"navi\"]/a");
     private static final By NAVIGATION_BAR = By.cssSelector("#naviheader > div:nth-child(1) > div:nth-child(1) > a");
     private static final By NAVIGATION_ARROW =By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[12]");
 
@@ -55,7 +55,9 @@ public class Forum {
         search_button.click();
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
       //  String topic_listing = driver.getCurrentUrl();
-       WebElement search= driver.findElement(SEARCH);
+        WebDriverWait wait = new WebDriverWait(driver,2);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(FORUM_HEADER));
+       WebElement search= driver.findElement(FORUM_HEADER);
         //Assert.assertEquals("https://forum.index.hu/Topic/showTopicList", topic_listing);
         Assert.assertTrue(search.isDisplayed());
         //optionally put scrolling down here
@@ -102,25 +104,25 @@ public class Forum {
         search_field.sendKeys("kutya");
         WebElement search_button = driver.findElement((SEARCH_BUTTON));
         search_button.click();
-        WebDriverWait wait = new WebDriverWait(driver, 9);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(PAGE_2)).click();
-        WebDriverWait rest = new WebDriverWait(driver, 9);
+        WebDriverWait rest = new WebDriverWait(driver, 5);
         rest.until(ExpectedConditions.visibilityOfElementLocated(PAGE_3)).click();
-        WebDriverWait sleep = new WebDriverWait(driver, 9);
+        WebDriverWait sleep = new WebDriverWait(driver, 7);
         rest.until(ExpectedConditions.visibilityOfElementLocated(PAGE_4)).click();
-        WebDriverWait sleep2 = new WebDriverWait(driver, 9);
+        WebDriverWait sleep2 = new WebDriverWait(driver, 7);
         sleep2.until(ExpectedConditions.visibilityOfElementLocated(PAGE_5)).click();
-        WebDriverWait sleep3 = new WebDriverWait(driver, 9);
+        WebDriverWait sleep3 = new WebDriverWait(driver, 7);
         sleep3.until(ExpectedConditions.visibilityOfElementLocated(PAGE_6)).click();
-        WebDriverWait sleep4 = new WebDriverWait(driver, 9);
+        WebDriverWait sleep4 = new WebDriverWait(driver, 7);
         sleep4.until(ExpectedConditions.visibilityOfElementLocated(PAGE_7)).click();
-        WebDriverWait sleep5 = new WebDriverWait(driver, 9);
+        WebDriverWait sleep5 = new WebDriverWait(driver, 5);
         sleep5.until(ExpectedConditions.visibilityOfElementLocated(PAGE_8)).click();
-        WebDriverWait sleep6 = new WebDriverWait(driver, 9);
+        WebDriverWait sleep6 = new WebDriverWait(driver, 5);
         sleep5.until(ExpectedConditions.visibilityOfElementLocated(PAGE_9)).click();
         WebElement navigation_bar = driver.findElement(By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[10]"));
         String Website_link = driver.getCurrentUrl();
-        Assert.assertFalse(navigation_bar.isDisplayed());
+        Assert.assertEquals("https://forum.index.hu/Search/showTopicResult?tr_start=240&tr_step=30&o=10&tq_text=kutya&tq_in=1&tq_act=&tq_cre=0&tq_user=", Website_link);
         driver.close();
     }
 

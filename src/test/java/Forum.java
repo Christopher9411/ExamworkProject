@@ -1,4 +1,5 @@
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,6 +30,7 @@ public class Forum {
     private static final By PAGE_9 = By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[10]");
     private static final By SEARCH= By.xpath(" /html/body/div[2]/div/table/tbody/tr[2]/td[2]/div[1]/div[2]/a");
     private static final By NAVIGATION_BAR = By.cssSelector("#naviheader > div:nth-child(1) > div:nth-child(1) > a");
+    private static final By NAVIGATION_ARROW =By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[12]");
 
 
 
@@ -116,8 +118,9 @@ public class Forum {
         sleep5.until(ExpectedConditions.visibilityOfElementLocated(PAGE_8)).click();
         WebDriverWait sleep6 = new WebDriverWait(driver, 9);
         sleep5.until(ExpectedConditions.visibilityOfElementLocated(PAGE_9)).click();
+        WebElement navigation_bar = driver.findElement(By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[10]"));
         String Website_link = driver.getCurrentUrl();
-        Assert.assertTrue(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"maintd\"]/form[1]/table/tbody/tr/td[1]/a[12]"));
+        Assert.assertFalse(navigation_bar.isDisplayed());
         driver.close();
     }
 
@@ -151,6 +154,7 @@ public class Forum {
         search_button.click();
         WebElement navigation =driver.findElement(NAVIGATION_BAR);
         Assert.assertTrue(navigation.isDisplayed());
+
 
     }
 

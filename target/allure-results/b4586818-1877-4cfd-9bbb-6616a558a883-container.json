@@ -1,0 +1,1 @@
+{"uuid":"b4586818-1877-4cfd-9bbb-6616a558a883","name":"Bejelentkezési adatok beolvasása fájlból","children":["5b95826c-aade-4bcf-aae6-c8cdffeece28"],"befores":[],"afters":[{"name":"Close","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629380624950,"stop":1629380624954}],"links":[],"start":1629380619244,"stop":1629380625042}

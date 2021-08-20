@@ -23,8 +23,8 @@ public class Settings {
     public static void Add_data() {
         WebElement settings = driver.findElement(SETTINGS);
         settings.click();
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(ABOUT_ME));
+        WebDriverWait rest = new WebDriverWait(driver, 5);
+        rest.until(ExpectedConditions.visibilityOfElementLocated(ABOUT_ME));
         WebElement about_me_field = driver.findElement(ABOUT_ME);
         about_me_field.clear();
         about_me_field.sendKeys("Ez egy tesztfiók amely Chromedriveres automata tesztelésre lett létrehozva.");

@@ -16,6 +16,7 @@ public class Privacy_Page {
     static WebDriver driver = Util.getDriver();
     private static final By PRIVACY_MENU = xpath(" //*[contains(text(),'Adatvédelmi tájékoztató')]");
     private static final By PRIVACY_TEXT = xpath("//*[@href='/adatkezeles/']");
+    private static final By ACCEPT_COOKIES = xpath(" //*[@class=' css-k8o10q']");
 
    /* public static void save_privacy_text() {
         WebElement privacy_policy = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
@@ -33,6 +34,8 @@ public class Privacy_Page {
 
 
     public static void print_Privacy_into_file() {
+        WebElement cookies_accept = driver.findElement(ACCEPT_COOKIES);
+        cookies_accept.click();
         WebElement privacy_policy = driver.findElement(PRIVACY_MENU);
         privacy_policy.click();
         // WebElement e = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));

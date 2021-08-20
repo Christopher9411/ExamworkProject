@@ -7,6 +7,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
         import org.openqa.selenium.chrome.ChromeOptions;
 
         import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Util {
     private static WebDriver driver;
@@ -15,7 +17,6 @@ public class Util {
         if (driver == null) {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("user-data-dir=c:\\Users\\Tatsuya Hiroki\\AppData\\Local\\Google\\Chrome\\User Data");
             options.addArguments("--incognito");
             options.addArguments("--disable-notifications"); // visszautasít minden böngésző felkérést pl: értesítések küldése
             options.addArguments("start-maximized"); // teljes képernyőben való használat

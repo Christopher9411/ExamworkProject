@@ -120,7 +120,7 @@ public class ForumTestPOM {
     public void Close()
     {
         //Driver dispose
-        driver.quit();
+
     }
 
 

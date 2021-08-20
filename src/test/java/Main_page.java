@@ -16,6 +16,7 @@ public class Main_page {
     private static final By PASSWORD = xpath("//*[@class=\"indpl_text indpl_passwd\"]");
     private static final By LOGIN_BUTTON = xpath("//*[contains(@class,'indpl_submit')]");
     private static final By LOGOUT_BUTTON = cssSelector(".ahigh");
+    private static final By ACCEPT_COOKIES = xpath(" //*[@class=' css-k8o10q']");
 
 
 
@@ -32,8 +33,12 @@ public class Main_page {
 
 
     public static void register() {
+        WebElement cookies_accept = driver.findElement(ACCEPT_COOKIES);
+        cookies_accept.click();
         WebElement registration_button = driver.findElement(By.xpath("//*[@class='indpl_reg_button']"));
         registration_button.click();
+        WebDriverWait waiting = new WebDriverWait(driver,4);
+        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
         WebElement email_adress = driver.findElement(By.xpath("//input[@id='nick']"));
         email_adress.sendKeys("nagy.kristof1994@gmail.com");
         WebElement password_field = driver.findElement(By.id("passwd"));
@@ -54,6 +59,8 @@ public class Main_page {
 
 
     public static void login() {
+        WebDriverWait waiting = new WebDriverWait(driver, 5);
+        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
         WebElement email = driver.findElement(EMAIL_ADRESS);
         email.sendKeys("nagy.kristof1994@gmail.com");
         WebElement password = driver.findElement(PASSWORD);
@@ -71,6 +78,8 @@ public class Main_page {
     public static void logout() {
         WebElement logout = driver.findElement((LOGOUT_BUTTON));
         logout.click();
+        WebElement accept_cookies = driver.findElement(ACCEPT_COOKIES);
+        accept_cookies.click();
 
         Assert.assertEquals("https://kilepes.blog.hu/", "https://kilepes.blog.hu/");
     }
@@ -79,6 +88,8 @@ public class Main_page {
     public static void fileread() {
         FileUtil utils = new FileUtil();
         String[] credential = utils.readCredential();
+        WebDriverWait waiting = new WebDriverWait(driver, 5);
+        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
         WebElement email_adress = driver.findElement(EMAIL_ADRESS);
         email_adress.sendKeys(credential[0]);
         WebElement password = driver.findElement(PASSWORD);
@@ -94,6 +105,7 @@ public class Main_page {
 
 
     public static void getText() {
+
         WebElement text = driver.findElement(cssSelector(".foot-forum > p:nth-child(2)"));
         String website_text = text.getText();
         System.out.println(website_text);

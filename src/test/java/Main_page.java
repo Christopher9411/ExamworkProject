@@ -107,6 +107,8 @@ public class Main_page {
     public static void getText() {
 
         WebElement text = driver.findElement(cssSelector(".foot-forum > p:nth-child(2)"));
+        WebDriverWait waiting = new WebDriverWait(driver, 5);
+        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]")));
         String website_text = text.getText();
         System.out.println(website_text);
         Assert.assertEquals("Magyarország első és legnagyobb fórum szolgáltatása. A web kettő pre-bétája, amit 1997 óta töltenek meg tartalommal a fórumlakók. Fórumok változatos témákban, hangnemben, moderálva. Ha nem csak megosztani akarsz, hanem diskurálni egy egy témában, csatlakozz Te is, és ha kitartó vagy, társakra találhatsz.", website_text);

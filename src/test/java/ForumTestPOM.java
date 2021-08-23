@@ -3,6 +3,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 
+import java.sql.Driver;
+
 
 public class ForumTestPOM {
     private WebDriver driver = Util.getDriver();
@@ -119,7 +121,7 @@ public class ForumTestPOM {
     @AfterEach
     public void Close()
     {
-        //Driver dispose
+        driver.quit();
 
     }
 

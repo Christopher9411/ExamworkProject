@@ -53,7 +53,7 @@ public class Forum {
         search_field.sendKeys("autó");
         WebElement search_button = driver.findElement(SEARCH_BUTTON);
         search_button.click();
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
       //  String topic_listing = driver.getCurrentUrl();
         WebDriverWait wait = new WebDriverWait(driver,2);
         wait.until(ExpectedConditions.visibilityOfElementLocated(FORUM_HEADER));
@@ -104,9 +104,10 @@ public class Forum {
         search_field.sendKeys("kutya");
         WebElement search_button = driver.findElement((SEARCH_BUTTON));
         search_button.click();
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebDriverWait wait = new WebDriverWait(driver, 7);
         wait.until(ExpectedConditions.visibilityOfElementLocated(PAGE_2)).click();
-        WebDriverWait rest = new WebDriverWait(driver, 5);
+        WebDriverWait rest = new WebDriverWait(driver, 7);
+        //harmadik oldalnál sajnos valamiért egyáltalán nem hajlandó rákattintani a harmadik oldalra relatív xpath segítségével...
         rest.until(ExpectedConditions.visibilityOfElementLocated(PAGE_3)).click();
         WebDriverWait sleep = new WebDriverWait(driver, 7);
         rest.until(ExpectedConditions.visibilityOfElementLocated(PAGE_4)).click();
@@ -116,9 +117,9 @@ public class Forum {
         sleep3.until(ExpectedConditions.visibilityOfElementLocated(PAGE_6)).click();
         WebDriverWait sleep4 = new WebDriverWait(driver, 7);
         sleep4.until(ExpectedConditions.visibilityOfElementLocated(PAGE_7)).click();
-        WebDriverWait sleep5 = new WebDriverWait(driver, 5);
+        WebDriverWait sleep5 = new WebDriverWait(driver, 7);
         sleep5.until(ExpectedConditions.visibilityOfElementLocated(PAGE_8)).click();
-        WebDriverWait sleep6 = new WebDriverWait(driver, 5);
+        WebDriverWait sleep6 = new WebDriverWait(driver, 7);
         sleep5.until(ExpectedConditions.visibilityOfElementLocated(PAGE_9)).click();
         WebElement navigation_bar = driver.findElement(By.xpath("/html/body/div[2]/div/table/tbody/tr[2]/td[2]/form[1]/table/tbody/tr/td[1]/a[10]"));
         String Website_link = driver.getCurrentUrl();
@@ -149,7 +150,7 @@ public class Forum {
         FileUtil2 utils = new FileUtil2();
         String credential = utils.readCredential();
         WebDriverWait waiting = new WebDriverWait(driver, 5);
-        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
+        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]"))).click();
         WebElement search_field = driver.findElement(SEARCH_FIELD);
         search_field.sendKeys(credential);
         WebElement search_button = driver.findElement(SEARCH_BUTTON);

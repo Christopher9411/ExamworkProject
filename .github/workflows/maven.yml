@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - uses: actions/cache@v1
         with:
           path: |
@@ -19,7 +18,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: 16
+          java-version: '16'
           distribution: 'adopt'
 
       - name: Install dependencies
@@ -27,7 +26,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn -X clean test
+        run: mvn test
         continue-on-error: true
 
       - name: 📁 Get Allure history

@@ -1,12 +1,4 @@
 [ {
-  "buildOrder" : 35,
-  "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/35/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 12,
-    "retry" : 305
-  }
-}, {
   "data" : {
     "run" : 0,
     "retry" : 0

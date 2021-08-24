@@ -1,0 +1,136 @@
+{
+  "uid" : "e790bd75cdc1034c",
+  "name" : "Profil információk módosítása",
+  "fullName" : "ForumTestPOM.modify_profile_informations",
+  "historyId" : "d2b5efbb69b215a96418d04f8c9c1e21",
+  "time" : {
+    "start" : 1629802920738,
+    "stop" : 1629802924426,
+    "duration" : 3688
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629802924296,
+      "stop" : 1629802924417,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "14640@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "modify_profile_informations"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f02b0695548235b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629713128109,
+        "stop" : 1629713135812,
+        "duration" : 7703
+      }
+    }, {
+      "uid" : "bc36e08065d1beee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711813633,
+        "stop" : 1629711821192,
+        "duration" : 7559
+      }
+    }, {
+      "uid" : "4800d44ed4923b77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629441068624,
+        "stop" : 1629441076101,
+        "duration" : 7477
+      }
+    }, {
+      "uid" : "75e2a4995f8166a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629382578378,
+        "stop" : 1629382585948,
+        "duration" : 7570
+      }
+    }, {
+      "uid" : "217af9738e73e063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629356569561,
+        "stop" : 1629356572103,
+        "duration" : 2542
+      }
+    }, {
+      "uid" : "a3b2da59cad94761",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629355788195,
+        "stop" : 1629355790775,
+        "duration" : 2580
+      }
+    }, {
+      "uid" : "894bfbaf9dd4dbcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290697959,
+        "stop" : 1629290700544,
+        "duration" : 2585
+      }
+    }, {
+      "uid" : "d18e24120cb509f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629102654986,
+        "stop" : 1629102657657,
+        "duration" : 2671
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e790bd75cdc1034c.json",
+  "parameterValues" : [ ]
+}

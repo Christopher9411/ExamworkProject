@@ -27,4 +27,31 @@ public class FileUtil2 {
         }
         return data;
     }
+
+    public String[] readCredential2() {
+        String[] result = new String[2];
+        try {
+            File myUser = new File("Login.txt");
+            Scanner scanner = new Scanner(myUser);
+            while (scanner.hasNextLine()) {
+                String data = scanner.nextLine();
+                String[] temp = data.split(" = ");
+                if (temp[0].equals("email")) {
+                    result[0] = temp[1];
+                } else {
+                    result[1] = temp[1];
+                }
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
+        return result;
+    }
+
+
+
+
+
+
+
 }

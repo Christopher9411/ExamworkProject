@@ -86,8 +86,8 @@ public class Main_page {
 
 
     public static void fileread() {
-        FileUtil utils = new FileUtil();
-        String[] credential = utils.readCredential();
+        FileUtil2 utils = new FileUtil2();
+        String[] credential = utils.readCredential2();
         WebDriverWait waiting = new WebDriverWait(driver, 5);
         waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
         WebElement email_adress = driver.findElement(EMAIL_ADRESS);

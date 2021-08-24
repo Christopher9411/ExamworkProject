@@ -1,0 +1,1 @@
+vvvvvvallure serve "C:\Users\Tatsuya Hiroki\Documents\GitHub\ExamworkProject\allure-results"

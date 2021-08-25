@@ -1,0 +1,121 @@
+[ {
+  "uid" : "c57f41d4618c4650",
+  "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+  "time" : {
+    "start" : 1629806379068,
+    "stop" : 1629806379299,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7596c48b66516c1",
+  "name" : "Profil információk hozzáadása",
+  "time" : {
+    "start" : 1629807481028,
+    "stop" : 1629807484368,
+    "duration" : 3340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "477f77d0e5c10a6",
+  "name" : "Bejelentkezési adatok beolvasása fájlból",
+  "time" : {
+    "start" : 1629807317799,
+    "stop" : 1629807323575,
+    "duration" : 5776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8eff3f6fe8b3241",
+  "name" : "Profil információk módosítása",
+  "time" : {
+    "start" : 1629802920738,
+    "stop" : 1629802924426,
+    "duration" : 3688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71f259b730708351",
+  "name" : "Kijelentkezés az Index fórumról",
+  "time" : {
+    "start" : 1629807432796,
+    "stop" : 1629807436436,
+    "duration" : 3640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59ddd54dd725c2da",
+  "name" : "Profil információk eltávolítása",
+  "time" : {
+    "start" : 1629807493143,
+    "stop" : 1629807496626,
+    "duration" : 3483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5734da3d0dabee36",
+  "name" : "Fórum keresési találatokon keresztül történő loopolás",
+  "time" : {
+    "start" : 1629807456637,
+    "stop" : 1629807471222,
+    "duration" : 14585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdd72cf5efe0b21a",
+  "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+  "time" : {
+    "start" : 1629807504712,
+    "stop" : 1629807505308,
+    "duration" : 596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad2b5185fc4efe93",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "time" : {
+    "start" : 1629807333294,
+    "stop" : 1629807335250,
+    "duration" : 1956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee4146885fbccefc",
+  "name" : "Belépés az Index fórumra",
+  "time" : {
+    "start" : 1629802963723,
+    "stop" : 1629802965842,
+    "duration" : 2119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c88271aa4f68a47",
+  "name" : "Fórum keresési találatok kilistázása",
+  "time" : {
+    "start" : 1629807445028,
+    "stop" : 1629807446943,
+    "duration" : 1915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7181b790ef8b2719",
+  "name" : "Regisztrálás az Index fórumra",
+  "time" : {
+    "start" : 1629802924592,
+    "stop" : 1629802924595,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

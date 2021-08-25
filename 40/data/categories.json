@@ -1,0 +1,213 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "Regisztrálás az Index fórumra",
+        "uid" : "33faf8f437c42844",
+        "parentUid" : "e37ba20e5bf7ae59f1ce240a5f32fd48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629802924592,
+          "stop" : 1629802924595,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e37ba20e5bf7ae59f1ce240a5f32fd48"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5569157c2a63 <unknown>\n#1 0x556915537458 <unknown>\n#2 0x55691555a2e3 <unknown>\n#3 0x556915555e9f <unknown>\n#4 0x55691558fb72 <unknown>\n#5 0x556915589fd3 <unknown>\n#6 0x556915560514 <unknown>\n#7 0x556915561505 <unknown>\n#8 0x5569157eee2e <unknown>\n#9 0x556915804886 <unknown>\n#10 0x5569157efd75 <unknown>\n#11 0x556915805d94 <unknown>\n#12 0x5569157e68eb <unknown>\n#13 0x556915820cd8 <unknown>\n#14 0x556915820e58 <unknown>\n#15 0x55691583adfd <unknown>\n#16 0x7f0610c4c609 start_thread\n",
+      "children" : [ {
+        "name" : "Profil információk módosítása",
+        "uid" : "daf563d9b73086d0",
+        "parentUid" : "06ef2197feba3a0032fbd8f6b3eab5e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897848390,
+          "stop" : 1629897851287,
+          "duration" : 2897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06ef2197feba3a0032fbd8f6b3eab5e8"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x560c3d210a63 <unknown>\n#1 0x560c3cf85458 <unknown>\n#2 0x560c3cfa82e3 <unknown>\n#3 0x560c3cfa3e9f <unknown>\n#4 0x560c3cfddb72 <unknown>\n#5 0x560c3cfd7fd3 <unknown>\n#6 0x560c3cfae514 <unknown>\n#7 0x560c3cfaf505 <unknown>\n#8 0x560c3d23ce2e <unknown>\n#9 0x560c3d252886 <unknown>\n#10 0x560c3d23dd75 <unknown>\n#11 0x560c3d253d94 <unknown>\n#12 0x560c3d2348eb <unknown>\n#13 0x560c3d26ecd8 <unknown>\n#14 0x560c3d26ee58 <unknown>\n#15 0x560c3d288dfd <unknown>\n#16 0x7f07e5ae3609 start_thread\n",
+      "children" : [ {
+        "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+        "uid" : "4db0d21844265449",
+        "parentUid" : "1cc9aa6a0a212a581ae10486d9b8c160",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897851369,
+          "stop" : 1629897852518,
+          "duration" : 1149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cc9aa6a0a212a581ae10486d9b8c160"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5565af4f9a63 <unknown>\n#1 0x5565af26e458 <unknown>\n#2 0x5565af2912e3 <unknown>\n#3 0x5565af28ce9f <unknown>\n#4 0x5565af2c6b72 <unknown>\n#5 0x5565af2c0fd3 <unknown>\n#6 0x5565af297514 <unknown>\n#7 0x5565af298505 <unknown>\n#8 0x5565af525e2e <unknown>\n#9 0x5565af53b886 <unknown>\n#10 0x5565af526d75 <unknown>\n#11 0x5565af53cd94 <unknown>\n#12 0x5565af51d8eb <unknown>\n#13 0x5565af557cd8 <unknown>\n#14 0x5565af557e58 <unknown>\n#15 0x5565af571dfd <unknown>\n#16 0x7fda24191609 start_thread\n",
+      "children" : [ {
+        "name" : "Fórum keresési találatokon keresztül történő loopolás",
+        "uid" : "5cd969aeb85e6a24",
+        "parentUid" : "639b89156d49b148d422515416e40e8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897852526,
+          "stop" : 1629897853589,
+          "duration" : 1063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "639b89156d49b148d422515416e40e8f"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55ca0aa9ba63 <unknown>\n#1 0x55ca0a810458 <unknown>\n#2 0x55ca0a8332e3 <unknown>\n#3 0x55ca0a82ee9f <unknown>\n#4 0x55ca0a868b72 <unknown>\n#5 0x55ca0a862fd3 <unknown>\n#6 0x55ca0a839514 <unknown>\n#7 0x55ca0a83a505 <unknown>\n#8 0x55ca0aac7e2e <unknown>\n#9 0x55ca0aadd886 <unknown>\n#10 0x55ca0aac8d75 <unknown>\n#11 0x55ca0aaded94 <unknown>\n#12 0x55ca0aabf8eb <unknown>\n#13 0x55ca0aaf9cd8 <unknown>\n#14 0x55ca0aaf9e58 <unknown>\n#15 0x55ca0ab13dfd <unknown>\n#16 0x7f44a4726609 start_thread\n",
+      "children" : [ {
+        "name" : "Fórum keresési találatok kilistázása",
+        "uid" : "be5d0b5a31cbe17a",
+        "parentUid" : "cfe3417070ff55902a7654aa327a41f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897853596,
+          "stop" : 1629897854688,
+          "duration" : 1092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfe3417070ff55902a7654aa327a41f9"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x558030462a63 <unknown>\n#1 0x5580301d7458 <unknown>\n#2 0x5580301fa2e3 <unknown>\n#3 0x5580301f5e9f <unknown>\n#4 0x55803022fb72 <unknown>\n#5 0x558030229fd3 <unknown>\n#6 0x558030200514 <unknown>\n#7 0x558030201505 <unknown>\n#8 0x55803048ee2e <unknown>\n#9 0x5580304a4886 <unknown>\n#10 0x55803048fd75 <unknown>\n#11 0x5580304a5d94 <unknown>\n#12 0x5580304868eb <unknown>\n#13 0x5580304c0cd8 <unknown>\n#14 0x5580304c0e58 <unknown>\n#15 0x5580304dadfd <unknown>\n#16 0x7fb18d725609 start_thread\n",
+      "children" : [ {
+        "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+        "uid" : "f3d62bf5bd67e46e",
+        "parentUid" : "3d7c717a9f57361c9c4cadab80a4831d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897854700,
+          "stop" : 1629897855802,
+          "duration" : 1102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d7c717a9f57361c9c4cadab80a4831d"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5641bfb67a63 <unknown>\n#1 0x5641bf8dc458 <unknown>\n#2 0x5641bf8ff2e3 <unknown>\n#3 0x5641bf8fae9f <unknown>\n#4 0x5641bf934b72 <unknown>\n#5 0x5641bf92efd3 <unknown>\n#6 0x5641bf905514 <unknown>\n#7 0x5641bf906505 <unknown>\n#8 0x5641bfb93e2e <unknown>\n#9 0x5641bfba9886 <unknown>\n#10 0x5641bfb94d75 <unknown>\n#11 0x5641bfbaad94 <unknown>\n#12 0x5641bfb8b8eb <unknown>\n#13 0x5641bfbc5cd8 <unknown>\n#14 0x5641bfbc5e58 <unknown>\n#15 0x5641bfbdfdfd <unknown>\n#16 0x7f2c71630609 start_thread\n",
+      "children" : [ {
+        "name" : "Profil információk eltávolítása",
+        "uid" : "999b8e94165e57db",
+        "parentUid" : "399ab8a69946563101e1ab766d116b89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897855833,
+          "stop" : 1629897856949,
+          "duration" : 1116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "399ab8a69946563101e1ab766d116b89"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x561446ce7a63 <unknown>\n#1 0x561446a5c458 <unknown>\n#2 0x561446a7f2e3 <unknown>\n#3 0x561446a7ae9f <unknown>\n#4 0x561446ab4b72 <unknown>\n#5 0x561446aaefd3 <unknown>\n#6 0x561446a85514 <unknown>\n#7 0x561446a86505 <unknown>\n#8 0x561446d13e2e <unknown>\n#9 0x561446d29886 <unknown>\n#10 0x561446d14d75 <unknown>\n#11 0x561446d2ad94 <unknown>\n#12 0x561446d0b8eb <unknown>\n#13 0x561446d45cd8 <unknown>\n#14 0x561446d45e58 <unknown>\n#15 0x561446d5fdfd <unknown>\n#16 0x7fc84aa92609 start_thread\n",
+      "children" : [ {
+        "name" : "Belépés az Index fórumra",
+        "uid" : "b9078cc49593ee0d",
+        "parentUid" : "e9ea2e98ae00e92cdb214d3231f0eb53",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897856961,
+          "stop" : 1629897858051,
+          "duration" : 1090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9ea2e98ae00e92cdb214d3231f0eb53"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5634cd776a63 <unknown>\n#1 0x5634cd4eb458 <unknown>\n#2 0x5634cd50e2e3 <unknown>\n#3 0x5634cd509e9f <unknown>\n#4 0x5634cd543b72 <unknown>\n#5 0x5634cd53dfd3 <unknown>\n#6 0x5634cd514514 <unknown>\n#7 0x5634cd515505 <unknown>\n#8 0x5634cd7a2e2e <unknown>\n#9 0x5634cd7b8886 <unknown>\n#10 0x5634cd7a3d75 <unknown>\n#11 0x5634cd7b9d94 <unknown>\n#12 0x5634cd79a8eb <unknown>\n#13 0x5634cd7d4cd8 <unknown>\n#14 0x5634cd7d4e58 <unknown>\n#15 0x5634cd7eedfd <unknown>\n#16 0x7f32e7d7e609 start_thread\n",
+      "children" : [ {
+        "name" : "Kijelentkezés az Index fórumról",
+        "uid" : "2f111acfd703f3d8",
+        "parentUid" : "c1cc0c4b24d441a210aeea13d1e7c04b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897858055,
+          "stop" : 1629897859140,
+          "duration" : 1085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1cc0c4b24d441a210aeea13d1e7c04b"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55c1ee76ea63 <unknown>\n#1 0x55c1ee4e3458 <unknown>\n#2 0x55c1ee5062e3 <unknown>\n#3 0x55c1ee501e9f <unknown>\n#4 0x55c1ee53bb72 <unknown>\n#5 0x55c1ee535fd3 <unknown>\n#6 0x55c1ee50c514 <unknown>\n#7 0x55c1ee50d505 <unknown>\n#8 0x55c1ee79ae2e <unknown>\n#9 0x55c1ee7b0886 <unknown>\n#10 0x55c1ee79bd75 <unknown>\n#11 0x55c1ee7b1d94 <unknown>\n#12 0x55c1ee7928eb <unknown>\n#13 0x55c1ee7cccd8 <unknown>\n#14 0x55c1ee7cce58 <unknown>\n#15 0x55c1ee7e6dfd <unknown>\n#16 0x7f9248b03609 start_thread\n",
+      "children" : [ {
+        "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+        "uid" : "67ea24e716e1b15f",
+        "parentUid" : "4a80439721ea4d89086c88edf1307948",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897859144,
+          "stop" : 1629897860221,
+          "duration" : 1077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a80439721ea4d89086c88edf1307948"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x559de9dcda63 <unknown>\n#1 0x559de9b42458 <unknown>\n#2 0x559de9b652e3 <unknown>\n#3 0x559de9b60e9f <unknown>\n#4 0x559de9b9ab72 <unknown>\n#5 0x559de9b94fd3 <unknown>\n#6 0x559de9b6b514 <unknown>\n#7 0x559de9b6c505 <unknown>\n#8 0x559de9df9e2e <unknown>\n#9 0x559de9e0f886 <unknown>\n#10 0x559de9dfad75 <unknown>\n#11 0x559de9e10d94 <unknown>\n#12 0x559de9df18eb <unknown>\n#13 0x559de9e2bcd8 <unknown>\n#14 0x559de9e2be58 <unknown>\n#15 0x559de9e45dfd <unknown>\n#16 0x7f1e0a0b4609 start_thread\n",
+      "children" : [ {
+        "name" : "Bejelentkezési adatok beolvasása fájlból",
+        "uid" : "8355b56c8fdd0681",
+        "parentUid" : "54a2d3b8056bd4c0da96919337c6e405",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897860225,
+          "stop" : 1629897861282,
+          "duration" : 1057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54a2d3b8056bd4c0da96919337c6e405"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564b8b115a63 <unknown>\n#1 0x564b8ae8a458 <unknown>\n#2 0x564b8aead2e3 <unknown>\n#3 0x564b8aea8e9f <unknown>\n#4 0x564b8aee2b72 <unknown>\n#5 0x564b8aedcfd3 <unknown>\n#6 0x564b8aeb3514 <unknown>\n#7 0x564b8aeb4505 <unknown>\n#8 0x564b8b141e2e <unknown>\n#9 0x564b8b157886 <unknown>\n#10 0x564b8b142d75 <unknown>\n#11 0x564b8b158d94 <unknown>\n#12 0x564b8b1398eb <unknown>\n#13 0x564b8b173cd8 <unknown>\n#14 0x564b8b173e58 <unknown>\n#15 0x564b8b18ddfd <unknown>\n#16 0x7ff839ab1609 start_thread\n",
+      "children" : [ {
+        "name" : "Profil információk hozzáadása",
+        "uid" : "21c15709ec25e79f",
+        "parentUid" : "3ddad9d1e2e7d36743a17c89ef1f879f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629897861287,
+          "stop" : 1629897862352,
+          "duration" : 1065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ddad9d1e2e7d36743a17c89ef1f879f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

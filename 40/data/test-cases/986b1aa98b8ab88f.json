@@ -1,0 +1,276 @@
+{
+  "uid" : "986b1aa98b8ab88f",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "fullName" : "ForumTestPOM.read_multiple_info",
+  "historyId" : "7fbc69ff4746d466546ba23f1b7b9fd2",
+  "time" : {
+    "start" : 1629807333294,
+    "stop" : 1629807335250,
+    "duration" : 1956
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629807335136,
+      "stop" : 1629807335241,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "17772@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "read_multiple_info"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6c606ec5571b81eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807255377,
+        "stop" : 1629807257531,
+        "duration" : 2154
+      }
+    }, {
+      "uid" : "3274ffb7ea33b425",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629802924515,
+        "stop" : 1629802924530,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "17c4c72f641daca1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629713108433,
+        "stop" : 1629713110183,
+        "duration" : 1750
+      }
+    }, {
+      "uid" : "56708f2f246b068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711793403,
+        "stop" : 1629711795183,
+        "duration" : 1780
+      }
+    }, {
+      "uid" : "5b2a77acfaff03e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711291783,
+        "stop" : 1629711293802,
+        "duration" : 2019
+      }
+    }, {
+      "uid" : "f8e2f29573f8c7a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629441040588,
+        "stop" : 1629441042515,
+        "duration" : 1927
+      }
+    }, {
+      "uid" : "54810a9a316f2cf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629382386369,
+        "stop" : 1629382388199,
+        "duration" : 1830
+      }
+    }, {
+      "uid" : "9b2a380564986659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629356550453,
+        "stop" : 1629356551617,
+        "duration" : 1164
+      }
+    }, {
+      "uid" : "406896b32aec27bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629355818869,
+        "stop" : 1629355820136,
+        "duration" : 1267
+      }
+    }, {
+      "uid" : "895728033811bfc8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#naviheader > div:nth-child(1) > div:nth-child(1) > a\"}\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:52298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c3e3b65a3b58790da797af33b67a1f97\n*** Element info: {Using=css selector, value=#naviheader > div:nth-child(1) > div:nth-child(1) > a}",
+      "time" : {
+        "start" : 1629355767391,
+        "stop" : 1629355767825,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "b3e83baa90bd77c2",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#naviheader > div:nth-child(1) > div:nth-child(1) > a\"}\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:63469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d0fc6276ab6ee72225ce562647d9d275\n*** Element info: {Using=css selector, value=#naviheader > div:nth-child(1) > div:nth-child(1) > a}",
+      "time" : {
+        "start" : 1629355755840,
+        "stop" : 1629355756227,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "3e92f24ad8ccfff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629352291939,
+        "stop" : 1629352293137,
+        "duration" : 1198
+      }
+    }, {
+      "uid" : "1dd925ad14daba0a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@class='navilinks']\"}\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:59197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c080cb7792fa20ba7f4e3b56156d74b\n*** Element info: {Using=xpath, value=//td[@class='navilinks']}",
+      "time" : {
+        "start" : 1629351552725,
+        "stop" : 1629351553119,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "43fc13e4b1886a60",
+      "status" : "failed",
+      "statusDetails" : "expected:<...ps://forum.index.hu/[Search/fastSearchTopic]> but was:<...ps://forum.index.hu/[Topic/showTopicList]>",
+      "time" : {
+        "start" : 1629351084941,
+        "stop" : 1629351085327,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "3c1416bf6c682253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349416376,
+        "stop" : 1629349417509,
+        "duration" : 1133
+      }
+    }, {
+      "uid" : "1c255ba3792adbd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349199106,
+        "stop" : 1629349200264,
+        "duration" : 1158
+      }
+    }, {
+      "uid" : "b6b3f6721c4e1010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349083512,
+        "stop" : 1629349084836,
+        "duration" : 1324
+      }
+    }, {
+      "uid" : "dd05e48e7667af91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290824026,
+        "stop" : 1629290825498,
+        "duration" : 1472
+      }
+    }, {
+      "uid" : "f45bb57b4683d2ab",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629290700616,
+        "stop" : 1629290700628,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "f6745a34c52b8282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629102626162,
+        "stop" : 1629102627179,
+        "duration" : 1017
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6f2b3e6764a580a3",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/6f2b3e6764a580a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "b851596d3f180f96",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/b851596d3f180f96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "ad2b5185fc4efe93",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/37//#testresult/ad2b5185fc4efe93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "986b1aa98b8ab88f.json",
+  "parameterValues" : [ ]
+}

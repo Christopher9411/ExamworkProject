@@ -1,6 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,7 +20,6 @@ public class ForumTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         //options.addArguments("--incognito");
-        options.addArguments("--headless");
         options.addArguments("--disable-notifications"); // visszautasít minden böngésző felkérést pl: értesítések küldése
         options.addArguments("start-maximized"); // teljes képernyőben való használat
         options.setExperimentalOption("useAutomationExtension", true);
@@ -50,7 +50,8 @@ public class ForumTest {
     @Test
     @DisplayName("Belépés az Index fórumra")
     public void Login_function () {
-        Main_page.login();
+        Boolean isVisible = Main_page.login();
+        Assertions.assertTrue(isVisible);
 
 
     }

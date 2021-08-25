@@ -1,4 +1,3 @@
-import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +11,7 @@ public class Main_page {
     static WebDriver driver;
     // private static final By PAYEE_FIRSTNAME = xpath("//*[contains(@id,'customer.firstName')]");
     //Login function
-    private static final By EMAIL_ADRESS = xpath("//*[@class=\"indpl_text indpl_email\"]");
+    private static final By EMAIL_ADRESS = xpath("//*[@id=\"indpl_login_box_180\"]/descendant::*[@name=\"username\"]");
     private static final By PASSWORD = xpath("//*[@class=\"indpl_text indpl_passwd\"]");
     private static final By LOGIN_BUTTON = xpath("//*[contains(@class,'indpl_submit')]");
     private static final By LOGOUT_BUTTON = cssSelector(".ahigh");
@@ -58,11 +57,11 @@ public class Main_page {
     }
 
 
-    public static void login() {
+    public static boolean login() {
         //WebDriverWait waiting = new WebDriverWait(driver, 5);
         // waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
-        WebElement email = driver.findElement(EMAIL_ADRESS);
-        email.sendKeys("nagy.kristof1994@gmail.com");
+        WebDriverWait waiting = new WebDriverWait(driver, 5);
+         waiting.until(ExpectedConditions.elementToBeClickable(EMAIL_ADRESS)).sendKeys("nagy.kristof1994@gmail.com");
         WebElement password = driver.findElement(PASSWORD);
         password.sendKeys("teszt123");
         WebElement login_button = driver.findElement((LOGIN_BUTTON));
@@ -70,7 +69,8 @@ public class Main_page {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/Rights/logout']")));
         WebElement logout_button = driver.findElement(LOGOUT_BUTTON);
-        Assert.assertTrue(logout_button.isDisplayed());
+        return logout_button.isDisplayed();
+
 
     }
 

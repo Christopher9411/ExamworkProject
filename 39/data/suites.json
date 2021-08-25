@@ -1,0 +1,325 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "ForumTestPOM",
+    "children" : [ {
+      "name" : "Profil információk módosítása",
+      "uid" : "4caebce0618d460",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629802920738,
+        "stop" : 1629802924426,
+        "duration" : 3688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Regisztrálás az Index fórumra",
+      "uid" : "78d38bffc5f33dc6",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629802924592,
+        "stop" : 1629802924595,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Belépés az Index fórumra",
+      "uid" : "fc38e0c8ae708f86",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629802963723,
+        "stop" : 1629802965842,
+        "duration" : 2119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+      "uid" : "88659fc91e61d289",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629806379068,
+        "stop" : 1629806379299,
+        "duration" : 231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Bejelentkezési adatok beolvasása fájlból",
+      "uid" : "fc21208e3dcb3861",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807317799,
+        "stop" : 1629807323575,
+        "duration" : 5776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+      "uid" : "6f2b3e6764a580a3",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807333294,
+        "stop" : 1629807335250,
+        "duration" : 1956
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Kijelentkezés az Index fórumról",
+      "uid" : "87e7288521e85e7d",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807432796,
+        "stop" : 1629807436436,
+        "duration" : 3640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fórum keresési találatok kilistázása",
+      "uid" : "ecfd4db600d6c5af",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807445028,
+        "stop" : 1629807446943,
+        "duration" : 1915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fórum keresési találatokon keresztül történő loopolás",
+      "uid" : "7c2c469b4c269715",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807456637,
+        "stop" : 1629807471222,
+        "duration" : 14585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Profil információk hozzáadása",
+      "uid" : "539b0ba98e2bf940",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807481028,
+        "stop" : 1629807484368,
+        "duration" : 3340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Profil információk eltávolítása",
+      "uid" : "aa57b7dd7d15e680",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807493143,
+        "stop" : 1629807496626,
+        "duration" : 3483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+      "uid" : "7e66f4e4201dea6d",
+      "parentUid" : "42a48ed7a3b296330cf45730eb464c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807504712,
+        "stop" : 1629807505308,
+        "duration" : 596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "42a48ed7a3b296330cf45730eb464c72"
+  }, {
+    "name" : "ForumTest",
+    "children" : [ {
+      "name" : "Profil információk módosítása",
+      "uid" : "6875a83329e7444d",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893078339,
+        "stop" : 1629893104536,
+        "duration" : 26197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+      "uid" : "264c7beb39b42ec6",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629893104604,
+        "stop" : 1629893113753,
+        "duration" : 9149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fórum keresési találatokon keresztül történő loopolás",
+      "uid" : "ff7c71df587a3c9",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629893113757,
+        "stop" : 1629893131744,
+        "duration" : 17987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fórum keresési találatok kilistázása",
+      "uid" : "f4932861b886adf8",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629893131750,
+        "stop" : 1629893140985,
+        "duration" : 9235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+      "uid" : "964dc0e447aa0ed",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629893140988,
+        "stop" : 1629893148192,
+        "duration" : 7204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Regisztrálás az Index fórumra",
+      "uid" : "9f8672b31d10edd6",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1629893148199,
+        "stop" : 1629893148199,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Profil információk eltávolítása",
+      "uid" : "d344e1535ab11929",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893148211,
+        "stop" : 1629893166998,
+        "duration" : 18787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Belépés az Index fórumra",
+      "uid" : "8de0fc630e249524",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893167002,
+        "stop" : 1629893227836,
+        "duration" : 60834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Kijelentkezés az Index fórumról",
+      "uid" : "56a997cf814c1417",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893227842,
+        "stop" : 1629893288684,
+        "duration" : 60842
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+      "uid" : "d5c60988a758abdc",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893288691,
+        "stop" : 1629893349548,
+        "duration" : 60857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Bejelentkezési adatok beolvasása fájlból",
+      "uid" : "84d11456169be832",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893349551,
+        "stop" : 1629893410407,
+        "duration" : 60856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Profil információk hozzáadása",
+      "uid" : "799145fe5b838da6",
+      "parentUid" : "f093b1ff5efabbc81e3c6a20da5b91e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629893410416,
+        "stop" : 1629893471283,
+        "duration" : 60867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f093b1ff5efabbc81e3c6a20da5b91e9"
+  } ],
+  "name" : "suites"
+}

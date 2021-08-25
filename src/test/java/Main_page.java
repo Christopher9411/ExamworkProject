@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.openqa.selenium.By.*;
 
 public class Main_page {
-    static WebDriver driver = Util.getDriver();
+    static WebDriver driver;
     // private static final By PAYEE_FIRSTNAME = xpath("//*[contains(@id,'customer.firstName')]");
     //Login function
     private static final By EMAIL_ADRESS = xpath("//*[@class=\"indpl_text indpl_email\"]");
@@ -59,8 +59,8 @@ public class Main_page {
 
 
     public static void login() {
-        WebDriverWait waiting = new WebDriverWait(driver, 5);
-        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
+        //WebDriverWait waiting = new WebDriverWait(driver, 5);
+        // waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
         WebElement email = driver.findElement(EMAIL_ADRESS);
         email.sendKeys("nagy.kristof1994@gmail.com");
         WebElement password = driver.findElement(PASSWORD);
@@ -78,18 +78,17 @@ public class Main_page {
     public static void logout() {
         WebElement logout = driver.findElement((LOGOUT_BUTTON));
         logout.click();
-        WebElement accept_cookies = driver.findElement(ACCEPT_COOKIES);
-        accept_cookies.click();
+        //  WebElement accept_cookies = driver.findElement(ACCEPT_COOKIES);
+        //accept_cookies.click();
 
-        Assert.assertEquals("https://kilepes.blog.hu/", "https://kilepes.blog.hu/");
     }
 
 
     public static void fileread() {
         FileUtil2 utils = new FileUtil2();
         String[] credential = utils.readCredential2();
-        WebDriverWait waiting = new WebDriverWait(driver, 5);
-        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
+        //  WebDriverWait waiting = new WebDriverWait(driver, 5);
+        //  waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=' css-k8o10q']"))).click();
         WebElement email_adress = driver.findElement(EMAIL_ADRESS);
         email_adress.sendKeys(credential[0]);
         WebElement password = driver.findElement(PASSWORD);
@@ -100,23 +99,53 @@ public class Main_page {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/Rights/logout']")));
         WebElement logout = driver.findElement(LOGOUT_BUTTON);
         Assertions.assertEquals(true, logout.isDisplayed()); //ellenőrzés hogy a kilépési gomb meg van-e jelenítve
-        driver.close();
     }
 
 
-    public static void getText() {
+    public static String getText() {
 
         WebElement text = driver.findElement(cssSelector(".foot-forum > p:nth-child(2)"));
-        WebDriverWait waiting = new WebDriverWait(driver, 5);
-        waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]")));
+        //  WebDriverWait waiting = new WebDriverWait(driver, 5);
+        //   waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]")));
         String website_text = text.getText();
         System.out.println(website_text);
-        Assert.assertEquals("Magyarország első és legnagyobb fórum szolgáltatása. A web kettő pre-bétája, amit 1997 óta töltenek meg tartalommal a fórumlakók. Fórumok változatos témákban, hangnemben, moderálva. Ha nem csak megosztani akarsz, hanem diskurálni egy egy témában, csatlakozz Te is, és ha kitartó vagy, társakra találhatsz.", website_text);
+        return website_text;
+
 
     }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

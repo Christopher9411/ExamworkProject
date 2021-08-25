@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.concurrent.TimeUnit;
 
-class WriteToText{
+class WriteToText {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -24,30 +24,29 @@ class WriteToText{
         //write text to file
 
         File f = new File("savetxt.txt");
-        try{
+        try {
             FileUtils.writeStringToFile(f, s, Charset.defaultCharset());
-        }catch(IOException exc){
+        } catch (IOException exc) {
             exc.printStackTrace();
         }
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -13,29 +13,21 @@ import java.nio.charset.Charset;
 import static org.openqa.selenium.By.xpath;
 
 public class Privacy_Page {
-    static WebDriver driver = Util.getDriver();
+    static WebDriver driver;
+
+
     private static final By PRIVACY_MENU = xpath(" //*[contains(text(),'Adatvédelmi tájékoztató')]");
     private static final By PRIVACY_TEXT = xpath("//*[@href='/adatkezeles/']");
-    private static final By ACCEPT_COOKIES = xpath(" //*[@class=' css-k8o10q']");
-
-   /* public static void save_privacy_text() {
-        WebElement privacy_policy = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
-        privacy_policy.click();
-        WebElement e = driver.findElement(By.xpath(" //*[@href='/adatkezeles/']"));
-        WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@href='/adatkezeles/']")));
-        //WebElement e = driver.findElement(By.xpath("//*[@id=\"navilast\"]"));
-        String text = e.getText();
-        System.out.println(text);
-        Assertions.assertEquals("Adatvédelmi tájékoztató", text);
-    }
-
-    */
+    private static final By ACCEPT_COOKIES = xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]");
 
 
-    public static void print_Privacy_into_file() {
-        WebElement cookies_accept = driver.findElement(ACCEPT_COOKIES);
-        cookies_accept.click();
+
+
+
+
+    public static int print_Privacy_into_file() {
+        // WebElement cookies_accept = driver.findElement(ACCEPT_COOKIES);
+        //  cookies_accept.click();
         WebElement privacy_policy = driver.findElement(PRIVACY_MENU);
         privacy_policy.click();
         // WebElement e = driver.findElement(By.xpath("//*[@href='/adatkezeles/']"));
@@ -60,7 +52,8 @@ public class Privacy_Page {
             ex.printStackTrace();
         }
 
-        Assertions.assertEquals(1, lines);
+
+        return lines;
     }
 
 
@@ -74,14 +67,6 @@ public class Privacy_Page {
 
 
 }
-
-
-
-
-
-
-
-
 
 
 

@@ -1,0 +1,320 @@
+{
+  "uid" : "2908109f6a63e018",
+  "name" : "Bejelentkezési adatok beolvasása fájlból",
+  "fullName" : "ForumTestPOM.Read_from_file",
+  "historyId" : "3f8e9e9de0ad839c0be14855701c4677",
+  "time" : {
+    "start" : 1629807317799,
+    "stop" : 1629807323575,
+    "duration" : 5776
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629807323520,
+      "stop" : 1629807323567,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "13412@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "Read_from_file"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d82883793d70f0a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807269980,
+        "stop" : 1629807275694,
+        "duration" : 5714
+      }
+    }, {
+      "uid" : "48369383087accd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629803384000,
+        "stop" : 1629803390003,
+        "duration" : 6003
+      }
+    }, {
+      "uid" : "35ae7a6edaaccedb",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629802924671,
+        "stop" : 1629802924676,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "73e0660dd56d73a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629713061516,
+        "stop" : 1629713067359,
+        "duration" : 5843
+      }
+    }, {
+      "uid" : "1451bf68dae05e0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711632671,
+        "stop" : 1629711638428,
+        "duration" : 5757
+      }
+    }, {
+      "uid" : "ddff53a0300ed898",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711013947,
+        "stop" : 1629711019711,
+        "duration" : 5764
+      }
+    }, {
+      "uid" : "d3d3a4a9d96373bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629440965195,
+        "stop" : 1629440970803,
+        "duration" : 5608
+      }
+    }, {
+      "uid" : "d80129516d8ae93e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629380619288,
+        "stop" : 1629380624972,
+        "duration" : 5684
+      }
+    }, {
+      "uid" : "f74bd8cda82e8cfb",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <input type=\"Submit\" class=\"indpl_submit\" value=\"Belépek\"> is not clickable at point (143, 352). Other element would receive the click: <div height=\"969\" class=\"qc-cmp-cleanslate css-c7qsui\">...</div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\TATSUY~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59865}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6e25b430f177a1d4389882f2a5faa64c",
+      "time" : {
+        "start" : 1629380576728,
+        "stop" : 1629380578107,
+        "duration" : 1379
+      }
+    }, {
+      "uid" : "c2b696e9b37029eb",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <input type=\"Submit\" class=\"indpl_submit\" value=\"Belépek\"> is not clickable at point (143, 352). Other element would receive the click: <div height=\"969\" class=\"qc-cmp-cleanslate css-c7qsui\">...</div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\TATSUY~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 286e1802654434f8d87cede10f14e452",
+      "time" : {
+        "start" : 1629380527655,
+        "stop" : 1629380529029,
+        "duration" : 1374
+      }
+    }, {
+      "uid" : "414102cf0c955657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629356508831,
+        "stop" : 1629356510353,
+        "duration" : 1522
+      }
+    }, {
+      "uid" : "1990935a799761ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629355699600,
+        "stop" : 1629355700835,
+        "duration" : 1235
+      }
+    }, {
+      "uid" : "49bcde9350e5e257",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349459010,
+        "stop" : 1629349460460,
+        "duration" : 1450
+      }
+    }, {
+      "uid" : "6eb3ec4061c498c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349397404,
+        "stop" : 1629349398824,
+        "duration" : 1420
+      }
+    }, {
+      "uid" : "5efa5019bc454f27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349231609,
+        "stop" : 1629349252933,
+        "duration" : 21324
+      }
+    }, {
+      "uid" : "bf24d4849845c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349096639,
+        "stop" : 1629349098198,
+        "duration" : 1559
+      }
+    }, {
+      "uid" : "7737a350ce2e881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290755459,
+        "stop" : 1629290756882,
+        "duration" : 1423
+      }
+    }, {
+      "uid" : "f4a8a0b47be62b0e",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629290700808,
+        "stop" : 1629290700813,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "6e005da711970c3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629102554163,
+        "stop" : 1629102555275,
+        "duration" : 1112
+      }
+    }, {
+      "uid" : "317d3e5e519633cc",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ahigh\"}\n  (Session info: chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:59520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ea7aa5c5090a824622ec44babc3c9ad5\n*** Element info: {Using=css selector, value=.ahigh}",
+      "time" : {
+        "start" : 1629102431970,
+        "stop" : 1629102432292,
+        "duration" : 322
+      }
+    }, {
+      "uid" : "4ef61c24aef928bf",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ahigh\"}\n  (Session info: chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:63324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0359eb6bb49fde72e2ab170c4ccdaf95\n*** Element info: {Using=css selector, value=.ahigh}",
+      "time" : {
+        "start" : 1629102019129,
+        "stop" : 1629102019417,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "9fc71dda5fd7d1d8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ahigh\"}\n  (Session info: chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:49584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5c1e73f0356d1eb8ead27cb78dbdfba0\n*** Element info: {Using=css selector, value=.ahigh}",
+      "time" : {
+        "start" : 1629101927581,
+        "stop" : 1629101927877,
+        "duration" : 296
+      }
+    }, {
+      "uid" : "2cae06cc716f4824",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ahigh\"}\n  (Session info: chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:59676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d0e021a0af7cbc9390819efea1d2bc83\n*** Element info: {Using=css selector, value=.ahigh}",
+      "time" : {
+        "start" : 1629101910297,
+        "stop" : 1629101910887,
+        "duration" : 590
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "47ac3b28bd401afc",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/47ac3b28bd401afc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807317799,
+          "stop" : 1629807323575,
+          "duration" : 5776
+        }
+      }, {
+        "uid" : "5104e47037abfaf8",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/5104e47037abfaf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807317799,
+          "stop" : 1629807323575,
+          "duration" : 5776
+        }
+      }, {
+        "uid" : "fc21208e3dcb3861",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/fc21208e3dcb3861",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807317799,
+          "stop" : 1629807323575,
+          "duration" : 5776
+        }
+      }, {
+        "uid" : "1901873fc176cb42",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/1901873fc176cb42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807317799,
+          "stop" : 1629807323575,
+          "duration" : 5776
+        }
+      }, {
+        "uid" : "477f77d0e5c10a6",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/37//#testresult/477f77d0e5c10a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807317799,
+          "stop" : 1629807323575,
+          "duration" : 5776
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2908109f6a63e018.json",
+  "parameterValues" : [ ]
+}

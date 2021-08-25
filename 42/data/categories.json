@@ -1,0 +1,145 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "Regisztrálás az Index fórumra",
+        "uid" : "63f164932cdecec2",
+        "parentUid" : "e37ba20e5bf7ae59f1ce240a5f32fd48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629802924592,
+          "stop" : 1629802924595,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e37ba20e5bf7ae59f1ce240a5f32fd48"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@name,'homepage')] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Profil információk módosítása",
+        "uid" : "99d6098bb83aa860",
+        "parentUid" : "cae207ca6109cb76c4ee603f4aed1a9d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901064146,
+          "stop" : 1629901091304,
+          "duration" : 27158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cae207ca6109cb76c4ee603f4aed1a9d"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ajtEzO}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f5eacdeb9a1ddc5a020d180ef3ab6a90\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+      "children" : [ {
+        "name" : "Profil információk eltávolítása",
+        "uid" : "3ea7978649478deb",
+        "parentUid" : "4d0080e21b9d8541c7f34c0397d2c482",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901136870,
+          "stop" : 1629901155956,
+          "duration" : 19086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d0080e21b9d8541c7f34c0397d2c482"
+    }, {
+      "name" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d5ed43ba63 <unknown>\n#1 0x55d5ed1b0458 <unknown>\n#2 0x55d5ed1d6eed <unknown>\n#3 0x55d5ed1d26c3 <unknown>\n#4 0x55d5ed1cee9f <unknown>\n#5 0x55d5ed208b72 <unknown>\n#6 0x55d5ed202fd3 <unknown>\n#7 0x55d5ed1d9514 <unknown>\n#8 0x55d5ed1da505 <unknown>\n#9 0x55d5ed467e2e <unknown>\n#10 0x55d5ed47d886 <unknown>\n#11 0x55d5ed468d75 <unknown>\n#12 0x55d5ed47ed94 <unknown>\n#13 0x55d5ed45f8eb <unknown>\n#14 0x55d5ed499cd8 <unknown>\n#15 0x55d5ed499e58 <unknown>\n#16 0x55d5ed4b3dfd <unknown>\n#17 0x7f1dc4bdb609 start_thread\n",
+      "children" : [ {
+        "name" : "Belépés az Index fórumra",
+        "uid" : "3f26b2b1f9a909d0",
+        "parentUid" : "26e70f8e6804bea73600328fddd59870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901155969,
+          "stop" : 1629901216192,
+          "duration" : 60223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26e70f8e6804bea73600328fddd59870"
+    }, {
+      "name" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5642e9570a63 <unknown>\n#1 0x5642e92e5458 <unknown>\n#2 0x5642e930beed <unknown>\n#3 0x5642e93076c3 <unknown>\n#4 0x5642e9303e9f <unknown>\n#5 0x5642e933db72 <unknown>\n#6 0x5642e9337fd3 <unknown>\n#7 0x5642e930e514 <unknown>\n#8 0x5642e930f505 <unknown>\n#9 0x5642e959ce2e <unknown>\n#10 0x5642e95b2886 <unknown>\n#11 0x5642e959dd75 <unknown>\n#12 0x5642e95b3d94 <unknown>\n#13 0x5642e95948eb <unknown>\n#14 0x5642e95cecd8 <unknown>\n#15 0x5642e95cee58 <unknown>\n#16 0x5642e95e8dfd <unknown>\n#17 0x7fd6c856d609 start_thread\n",
+      "children" : [ {
+        "name" : "Kijelentkezés az Index fórumról",
+        "uid" : "e3793efd5f0f2a58",
+        "parentUid" : "b03eaa86a5f77856fbdb5dda57c92d25",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901216198,
+          "stop" : 1629901276422,
+          "duration" : 60224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b03eaa86a5f77856fbdb5dda57c92d25"
+    }, {
+      "name" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x556aadc1ca63 <unknown>\n#1 0x556aad991458 <unknown>\n#2 0x556aad9b7eed <unknown>\n#3 0x556aad9b36c3 <unknown>\n#4 0x556aad9afe9f <unknown>\n#5 0x556aad9e9b72 <unknown>\n#6 0x556aad9e3fd3 <unknown>\n#7 0x556aad9ba514 <unknown>\n#8 0x556aad9bb505 <unknown>\n#9 0x556aadc48e2e <unknown>\n#10 0x556aadc5e886 <unknown>\n#11 0x556aadc49d75 <unknown>\n#12 0x556aadc5fd94 <unknown>\n#13 0x556aadc408eb <unknown>\n#14 0x556aadc7acd8 <unknown>\n#15 0x556aadc7ae58 <unknown>\n#16 0x556aadc94dfd <unknown>\n#17 0x7fd53996c609 start_thread\n",
+      "children" : [ {
+        "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+        "uid" : "2af89209a7da9c50",
+        "parentUid" : "fdb6aa0ea2fad3f9df67ea2edb2909e2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901276429,
+          "stop" : 1629901336644,
+          "duration" : 60215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fdb6aa0ea2fad3f9df67ea2edb2909e2"
+    }, {
+      "name" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56353585da63 <unknown>\n#1 0x5635355d2458 <unknown>\n#2 0x5635355f8eed <unknown>\n#3 0x5635355f46c3 <unknown>\n#4 0x5635355f0e9f <unknown>\n#5 0x56353562ab72 <unknown>\n#6 0x563535624fd3 <unknown>\n#7 0x5635355fb514 <unknown>\n#8 0x5635355fc505 <unknown>\n#9 0x563535889e2e <unknown>\n#10 0x56353589f886 <unknown>\n#11 0x56353588ad75 <unknown>\n#12 0x5635358a0d94 <unknown>\n#13 0x5635358818eb <unknown>\n#14 0x5635358bbcd8 <unknown>\n#15 0x5635358bbe58 <unknown>\n#16 0x5635358d5dfd <unknown>\n#17 0x7f99480d5609 start_thread\n",
+      "children" : [ {
+        "name" : "Bejelentkezési adatok beolvasása fájlból",
+        "uid" : "7400fbcc6e1049c0",
+        "parentUid" : "0203d5ff9f1dc4946d72334d758f8ffc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901336648,
+          "stop" : 1629901396868,
+          "duration" : 60220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0203d5ff9f1dc4946d72334d758f8ffc"
+    }, {
+      "name" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a8ffb00a63 <unknown>\n#1 0x55a8ff875458 <unknown>\n#2 0x55a8ff89beed <unknown>\n#3 0x55a8ff8976c3 <unknown>\n#4 0x55a8ff893e9f <unknown>\n#5 0x55a8ff8cdb72 <unknown>\n#6 0x55a8ff8c7fd3 <unknown>\n#7 0x55a8ff89e514 <unknown>\n#8 0x55a8ff89f505 <unknown>\n#9 0x55a8ffb2ce2e <unknown>\n#10 0x55a8ffb42886 <unknown>\n#11 0x55a8ffb2dd75 <unknown>\n#12 0x55a8ffb43d94 <unknown>\n#13 0x55a8ffb248eb <unknown>\n#14 0x55a8ffb5ecd8 <unknown>\n#15 0x55a8ffb5ee58 <unknown>\n#16 0x55a8ffb78dfd <unknown>\n#17 0x7f9c4afff609 start_thread\n",
+      "children" : [ {
+        "name" : "Profil információk hozzáadása",
+        "uid" : "c4f7a76aa0540d28",
+        "parentUid" : "81919655e8c4cda23c94217a2aaefee8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629901396874,
+          "stop" : 1629901457135,
+          "duration" : 60261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81919655e8c4cda23c94217a2aaefee8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

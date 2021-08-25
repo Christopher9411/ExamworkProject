@@ -22,6 +22,7 @@ public class ForumTest {
         //options.addArguments("--incognito");
         options.addArguments("--disable-notifications"); // visszautasít minden böngésző felkérést pl: értesítések küldése
         options.addArguments("start-maximized"); // teljes képernyőben való használat
+        options.addArguments("--headless");
         options.setExperimentalOption("useAutomationExtension", true);
         options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
         options.addArguments("--remote-debugging-port=9222");

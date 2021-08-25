@@ -1,0 +1,70 @@
+{
+  "uid" : "578f531c94fe869c",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "fullName" : "ForumTestPOM.read_multiple_info",
+  "historyId" : "7fbc69ff4746d466546ba23f1b7b9fd2",
+  "time" : {
+    "start" : 1629349199106,
+    "stop" : 1629349200264,
+    "duration" : 1158
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629349200062,
+      "stop" : 1629349200257,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "11280@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "read_multiple_info"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "578f531c94fe869c.json",
+  "parameterValues" : [ ]
+}

@@ -20,6 +20,7 @@ public class ForumTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         //options.addArguments("--incognito");
+        options.addArguments("--headless");
         options.addArguments("--disable-notifications"); // visszautasít minden böngésző felkérést pl: értesítések küldése
         options.addArguments("start-maximized"); // teljes képernyőben való használat
         options.setExperimentalOption("useAutomationExtension", true);

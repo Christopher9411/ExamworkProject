@@ -1,0 +1,70 @@
+{
+  "uid" : "2247693bd6109da3",
+  "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+  "fullName" : "ForumTestPOM.writeprivacytextintodocument",
+  "historyId" : "a95c473a818f9d1fa6d016c20b2bdd5c",
+  "time" : {
+    "start" : 1629711559739,
+    "stop" : 1629711560238,
+    "duration" : 499
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629711560095,
+      "stop" : 1629711560230,
+      "duration" : 135
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "17308@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "writeprivacytextintodocument"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2247693bd6109da3.json",
+  "parameterValues" : [ ]
+}

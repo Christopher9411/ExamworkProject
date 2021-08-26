@@ -1,0 +1,276 @@
+{
+  "uid" : "3aafd0202028e954",
+  "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+  "fullName" : "ForumTestPOM.Print_text_from_main_page",
+  "historyId" : "db58bfc2033799f77051a5dced031fb3",
+  "time" : {
+    "start" : 1629806379068,
+    "stop" : 1629806379299,
+    "duration" : 231
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629806379171,
+      "stop" : 1629806379291,
+      "duration" : 120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "16932@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "Print_text_from_main_page"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f109cdc1e2ceb2f4",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629802924662,
+        "stop" : 1629802924664,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2a7e7f1d50b74415",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629713074191,
+        "stop" : 1629713074410,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "8b03f920588bd74b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711645599,
+        "stop" : 1629711645832,
+        "duration" : 233
+      }
+    }, {
+      "uid" : "fd67741a846c9f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711237047,
+        "stop" : 1629711237156,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "8093b9ddb50c4575",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711195533,
+        "stop" : 1629711195639,
+        "duration" : 106
+      }
+    }, {
+      "uid" : "5fc449f88b0a364",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711130752,
+        "stop" : 1629711130862,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "bb8be868a881a85d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711028183,
+        "stop" : 1629711028242,
+        "duration" : 59
+      }
+    }, {
+      "uid" : "4bf5b820265b87de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629440977585,
+        "stop" : 1629440977648,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "990b14fde96d44c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629380738602,
+        "stop" : 1629380738883,
+        "duration" : 281
+      }
+    }, {
+      "uid" : "b0015eae3cdf21ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629380683009,
+        "stop" : 1629380683096,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "4c9ce521d4ae9b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629380638604,
+        "stop" : 1629380638662,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "6554b929df2f97f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629356519212,
+        "stop" : 1629356519446,
+        "duration" : 234
+      }
+    }, {
+      "uid" : "c25c85a69b037229",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629355708607,
+        "stop" : 1629355708825,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "149653e8fb342286",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290766822,
+        "stop" : 1629290767071,
+        "duration" : 249
+      }
+    }, {
+      "uid" : "abea4336aeb06573",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629290700796,
+        "stop" : 1629290700798,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a5ddd71c855e7efc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629102566617,
+        "stop" : 1629102566663,
+        "duration" : 46
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "4f090b307cf7e005",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/43//#testresult/4f090b307cf7e005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "77fd021014685834",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/42//#testresult/77fd021014685834",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "85501cb8aea30f5",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/85501cb8aea30f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "6e48015ad0e12167",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/6e48015ad0e12167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "88659fc91e61d289",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/88659fc91e61d289",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "621ad7b219a7e625",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/621ad7b219a7e625",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "c57f41d4618c4650",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/37//#testresult/c57f41d4618c4650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629806379068,
+          "stop" : 1629806379299,
+          "duration" : 231
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3aafd0202028e954.json",
+  "parameterValues" : [ ]
+}

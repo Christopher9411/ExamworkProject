@@ -15,7 +15,7 @@ public class Settings {
     private static final By ABOUT_ME = By.cssSelector("tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)");
     private static final By SEARCH_FIELD = By.cssSelector(".inp");
     private static final By SEARCH_BUTTON = By.xpath("//*[contains(@class,'btnok')]");
-    private static final By WEBSITE = By.xpath("//*[contains(@name,'homepage')]");
+    private static final By WEBSITE = By.cssSelector("tr.mainsettings:nth-child(6) > td:nth-child(2) > input");
     private static final By WEBSITE_FIELD = By.xpath("//input[@type='text' and @name='homepage']");
     private static final By TERMS_OF_SERVICE = By.xpath("//*[@id=\"chk_policy\"]");
     private static final By CONFIRM_CHANGES = By.cssSelector(("#btn_settings_ok"));

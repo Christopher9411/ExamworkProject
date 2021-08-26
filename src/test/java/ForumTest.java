@@ -70,7 +70,8 @@ public class ForumTest {
     @Test
     @DisplayName("Bejelentkezési adatok beolvasása fájlból")
     public void Read_from_file () {
-        Main_page.fileread();
+       Boolean isDisplayed = Main_page.fileread();
+        Assertions.assertTrue(isDisplayed);
 
     }
 

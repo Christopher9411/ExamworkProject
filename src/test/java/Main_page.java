@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -84,7 +83,7 @@ public class Main_page {
     }
 
 
-    public static void fileread() {
+    public static boolean fileread() {
         FileUtil2 utils = new FileUtil2();
         String[] credential = utils.readCredential2();
         //  WebDriverWait waiting = new WebDriverWait(driver, 5);
@@ -98,7 +97,7 @@ public class Main_page {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/Rights/logout']")));
         WebElement logout = driver.findElement(LOGOUT_BUTTON);
-        Assertions.assertEquals(true, logout.isDisplayed()); //ellenőrzés hogy a kilépési gomb meg van-e jelenítve
+         return logout.isDisplayed();
     }
 
 

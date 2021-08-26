@@ -1,0 +1,70 @@
+{
+  "uid" : "fdf80a1ee15dee24",
+  "name" : "Kijelentkezés az Index fórumról",
+  "fullName" : "ForumTestPOM.Logging_out",
+  "historyId" : "57502b7788a2211f0a2df384926d24d5",
+  "time" : {
+    "start" : 1629440951175,
+    "stop" : 1629440954488,
+    "duration" : 3313
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629440954475,
+      "stop" : 1629440954476,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "17868@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logging_out"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdf80a1ee15dee24.json",
+  "parameterValues" : [ ]
+}

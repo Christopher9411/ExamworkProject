@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "Regisztrálás az Index fórumra",
+        "uid" : "82d2ff3444ccbacc",
+        "parentUid" : "e37ba20e5bf7ae59f1ce240a5f32fd48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629802924592,
+          "stop" : 1629802924595,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e37ba20e5bf7ae59f1ce240a5f32fd48"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(6) > td:nth-child(2) > input (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Profil információk módosítása",
+        "uid" : "f8ea35801c53164",
+        "parentUid" : "6966909004e87c14fb74eafd898b30d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629981397128,
+          "stop" : 1629981429319,
+          "duration" : 32191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6966909004e87c14fb74eafd898b30d0"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.160', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.O6i3t4}, goog:chromeOptions: {debuggerAddress: localhost:35141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 434e0f7f98efdead952f729d84dcd208\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+      "children" : [ {
+        "name" : "Profil információk eltávolítása",
+        "uid" : "caa66a96a2bccabd",
+        "parentUid" : "66c158f5f0221efe7dfe14f582738497",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629981473114,
+          "stop" : 1629981493534,
+          "duration" : 20420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66c158f5f0221efe7dfe14f582738497"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Profil információk hozzáadása",
+        "uid" : "ac5fb9621cb9a358",
+        "parentUid" : "5462e2353cc05d0d930e80cde1b437d6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629981532863,
+          "stop" : 1629981548422,
+          "duration" : 15559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5462e2353cc05d0d930e80cde1b437d6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

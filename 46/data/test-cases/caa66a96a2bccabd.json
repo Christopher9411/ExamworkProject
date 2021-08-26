@@ -1,0 +1,286 @@
+{
+  "uid" : "caa66a96a2bccabd",
+  "name" : "Profil információk eltávolítása",
+  "fullName" : "ForumTest.remove_information",
+  "historyId" : "8810a7d9a4ecd0ae1b988fb62c0e10a5",
+  "time" : {
+    "start" : 1629981473114,
+    "stop" : 1629981493534,
+    "duration" : 20420
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.160', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.O6i3t4}, goog:chromeOptions: {debuggerAddress: localhost:35141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 434e0f7f98efdead952f729d84dcd208\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.160', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.O6i3t4}, goog:chromeOptions: {debuggerAddress: localhost:35141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 434e0f7f98efdead952f729d84dcd208\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}\n\tat jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat Settings.DataRemove(Settings.java:66)\n\tat ForumTest.remove_information(ForumTest.java:141)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629981473115,
+      "stop" : 1629981480224,
+      "duration" : 7109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629981493468,
+      "stop" : 1629981493533,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az36-263"
+  }, {
+    "name" : "thread",
+    "value" : "3161@fv-az36-263.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "remove_information"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "114892b77c53983c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629981234915,
+        "stop" : 1629981243043,
+        "duration" : 8128
+      }
+    }, {
+      "uid" : "d763e6c8d8366265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629980617135,
+        "stop" : 1629980625974,
+        "duration" : 8839
+      }
+    }, {
+      "uid" : "5d2bd0c8b4347748",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00682A33+2501171]\n\tOrdinal0 [0x0061D1C1+2085313]\n\tOrdinal0 [0x00521FA8+1056680]\n\tOrdinal0 [0x0051316E+995694]\n\tOrdinal0 [0x005231C0+1061312]\n\tOrdinal0 [0x0056A93B+1354043]\n\tOrdinal0 [0x0056960A+1349130]\n\tOrdinal0 [0x0056551B+1332507]\n\tOrdinal0 [0x00541D74+1187188]\n\tOrdinal0 [0x00542BD9+1190873]\n\tGetHandleVerifier [0x007FEFE6+1504438]\n\tGetHandleVerifier [0x008ADDA5+2220661]\n\tGetHandleVerifier [0x00705589+481881]\n\tGetHandleVerifier [0x00704639+477961]\n\tOrdinal0 [0x006228BD+2107581]\n\tOrdinal0 [0x00626728+2123560]\n\tOrdinal0 [0x00626862+2123874]\n\tOrdinal0 [0x0062FA81+2161281]\n\tBaseThreadInitThunk [0x7647FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77607A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77607A4E+238]\n",
+      "time" : {
+        "start" : 1629979575397,
+        "stop" : 1629979576516,
+        "duration" : 1119
+      }
+    }, {
+      "uid" : "14cdbfae2980fdb0",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00682A33+2501171]\n\tOrdinal0 [0x0061D1C1+2085313]\n\tOrdinal0 [0x00521FA8+1056680]\n\tOrdinal0 [0x0051316E+995694]\n\tOrdinal0 [0x005231C0+1061312]\n\tOrdinal0 [0x0056A93B+1354043]\n\tOrdinal0 [0x0056960A+1349130]\n\tOrdinal0 [0x0056551B+1332507]\n\tOrdinal0 [0x00541D74+1187188]\n\tOrdinal0 [0x00542BD9+1190873]\n\tGetHandleVerifier [0x007FEFE6+1504438]\n\tGetHandleVerifier [0x008ADDA5+2220661]\n\tGetHandleVerifier [0x00705589+481881]\n\tGetHandleVerifier [0x00704639+477961]\n\tOrdinal0 [0x006228BD+2107581]\n\tOrdinal0 [0x00626728+2123560]\n\tOrdinal0 [0x00626862+2123874]\n\tOrdinal0 [0x0062FA81+2161281]\n\tBaseThreadInitThunk [0x7647FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77607A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77607A4E+238]\n",
+      "time" : {
+        "start" : 1629979381387,
+        "stop" : 1629979381811,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "b19b335f4cd4a08e",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974576012,
+        "stop" : 1629974576426,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "e819d78dde071523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629974466352,
+        "stop" : 1629974474608,
+        "duration" : 8256
+      }
+    }, {
+      "uid" : "62fdc09509d5b539",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974127574,
+        "stop" : 1629974127982,
+        "duration" : 408
+      }
+    }, {
+      "uid" : "8716a7a2bb402d57",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00692A33+2501171]\n\tOrdinal0 [0x0062D1C1+2085313]\n\tOrdinal0 [0x00531FA8+1056680]\n\tOrdinal0 [0x0052316E+995694]\n\tOrdinal0 [0x005331C0+1061312]\n\tOrdinal0 [0x0057A93B+1354043]\n\tOrdinal0 [0x0057960A+1349130]\n\tOrdinal0 [0x0057551B+1332507]\n\tOrdinal0 [0x00551D74+1187188]\n\tOrdinal0 [0x00552BD9+1190873]\n\tGetHandleVerifier [0x0080EFE6+1504438]\n\tGetHandleVerifier [0x008BDDA5+2220661]\n\tGetHandleVerifier [0x00715589+481881]\n\tGetHandleVerifier [0x00714639+477961]\n\tOrdinal0 [0x006328BD+2107581]\n\tOrdinal0 [0x00636728+2123560]\n\tOrdinal0 [0x00636862+2123874]\n\tOrdinal0 [0x0063FA81+2161281]\n\tBaseThreadInitThunk [0x75BDFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77257A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77257A4E+238]\n",
+      "time" : {
+        "start" : 1629973906647,
+        "stop" : 1629973907199,
+        "duration" : 552
+      }
+    }, {
+      "uid" : "df7e6ff9a19436f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629973763511,
+        "stop" : 1629973771809,
+        "duration" : 8298
+      }
+    }, {
+      "uid" : "ca0aa817c8bf139e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629898496384,
+        "stop" : 1629898505155,
+        "duration" : 8771
+      }
+    }, {
+      "uid" : "cb4213acf0f7b9bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629889812716,
+        "stop" : 1629889820483,
+        "duration" : 7767
+      }
+    }, {
+      "uid" : "a52f0ad51f28c4da",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class=' css-k8o10q'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1629889248998,
+        "stop" : 1629889259247,
+        "duration" : 10249
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "81b9da289a3b11ff",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/45//#testresult/81b9da289a3b11ff",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-462', ip: '10.1.0.222', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55dd937d5a63 <unknown>\n#1 0x55dd9354a458 <unknown>\n#2 0x55dd9356d2e3 <unknown>\n#3 0x55dd93568e9f <unknown>\n#4 0x55dd935a2b72 <unknown>\n#5 0x55dd9359cfd3 <unknown>\n#6 0x55dd93573514 <unknown>\n#7 0x55dd93574505 <unknown>\n#8 0x55dd93801e2e <unknown>\n#9 0x55dd93817886 <unknown>\n#10 0x55dd93802d75 <unknown>\n#11 0x55dd93818d94 <unknown>\n#12 0x55dd937f98eb <unknown>\n#13 0x55dd93833cd8 <unknown>\n#14 0x55dd93833e58 <unknown>\n#15 0x55dd9384ddfd <unknown>\n#16 0x7f2c0e8fc609 start_thread\n",
+        "time" : {
+          "start" : 1629980970615,
+          "stop" : 1629980970776,
+          "duration" : 161
+        }
+      }, {
+        "uid" : "deda7c8b543689a8",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/44//#testresult/deda7c8b543689a8",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-461', ip: '10.1.0.37', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.HihCxm}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ed426eeaf1188687ee74d28a1e37a45\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+        "time" : {
+          "start" : 1629973962189,
+          "stop" : 1629973980732,
+          "duration" : 18543
+        }
+      }, {
+        "uid" : "1a23ecb2722d68c5",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/43//#testresult/1a23ecb2722d68c5",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-462', ip: '10.1.0.25', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.cjbAIB}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 033d85f53ac187b27516ed2c83ad130b\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+        "time" : {
+          "start" : 1629964640377,
+          "stop" : 1629964659205,
+          "duration" : 18828
+        }
+      }, {
+        "uid" : "3ea7978649478deb",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/42//#testresult/3ea7978649478deb",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ajtEzO}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f5eacdeb9a1ddc5a020d180ef3ab6a90\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+        "time" : {
+          "start" : 1629901136870,
+          "stop" : 1629901155956,
+          "duration" : 19086
+        }
+      }, {
+        "uid" : "67fd8d0952db2396",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/67fd8d0952db2396",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-204', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.CWiBD4}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0867c41d295845966440b54d115be758\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+        "time" : {
+          "start" : 1629898861986,
+          "stop" : 1629898880617,
+          "duration" : 18631
+        }
+      }, {
+        "uid" : "999b8e94165e57db",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/999b8e94165e57db",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5641bfb67a63 <unknown>\n#1 0x5641bf8dc458 <unknown>\n#2 0x5641bf8ff2e3 <unknown>\n#3 0x5641bf8fae9f <unknown>\n#4 0x5641bf934b72 <unknown>\n#5 0x5641bf92efd3 <unknown>\n#6 0x5641bf905514 <unknown>\n#7 0x5641bf906505 <unknown>\n#8 0x5641bfb93e2e <unknown>\n#9 0x5641bfba9886 <unknown>\n#10 0x5641bfb94d75 <unknown>\n#11 0x5641bfbaad94 <unknown>\n#12 0x5641bfb8b8eb <unknown>\n#13 0x5641bfbc5cd8 <unknown>\n#14 0x5641bfbc5e58 <unknown>\n#15 0x5641bfbdfdfd <unknown>\n#16 0x7f2c71630609 start_thread\n",
+        "time" : {
+          "start" : 1629897855833,
+          "stop" : 1629897856949,
+          "duration" : 1116
+        }
+      }, {
+        "uid" : "d344e1535ab11929",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/d344e1535ab11929",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.109', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.mmEbmV}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2c9aee0abbcbba422bfbee931128c2fb\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}",
+        "time" : {
+          "start" : 1629893148211,
+          "stop" : 1629893166998,
+          "duration" : 18787
+        }
+      }, {
+        "uid" : "2744891a0d226f78",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/2744891a0d226f78",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5569aa8c6a63 <unknown>\n#1 0x5569aa63b458 <unknown>\n#2 0x5569aa65e2e3 <unknown>\n#3 0x5569aa659e9f <unknown>\n#4 0x5569aa693b72 <unknown>\n#5 0x5569aa68dfd3 <unknown>\n#6 0x5569aa664514 <unknown>\n#7 0x5569aa665505 <unknown>\n#8 0x5569aa8f2e2e <unknown>\n#9 0x5569aa908886 <unknown>\n#10 0x5569aa8f3d75 <unknown>\n#11 0x5569aa909d94 <unknown>\n#12 0x5569aa8ea8eb <unknown>\n#13 0x5569aa924cd8 <unknown>\n#14 0x5569aa924e58 <unknown>\n#15 0x5569aa93edfd <unknown>\n#16 0x7ff5c4154609 start_thread\n",
+        "time" : {
+          "start" : 1629889714719,
+          "stop" : 1629889715797,
+          "duration" : 1078
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "caa66a96a2bccabd.json",
+  "parameterValues" : [ ]
+}

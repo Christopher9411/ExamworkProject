@@ -1,0 +1,85 @@
+{
+  "uid" : "87b3fb5adffa4b68",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "fullName" : "ForumTest.read_multiple_info",
+  "historyId" : "95af5fda0363ff293ef30a9b05b14486",
+  "time" : {
+    "start" : 1629889773356,
+    "stop" : 1629889779376,
+    "duration" : 6020
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629889773361,
+      "stop" : 1629889778073,
+      "duration" : 4712
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629889779318,
+      "stop" : 1629889779375,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "944@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "read_multiple_info"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87b3fb5adffa4b68.json",
+  "parameterValues" : [ ]
+}

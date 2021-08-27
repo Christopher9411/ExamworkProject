@@ -1,0 +1,289 @@
+{
+  "uid" : "7822bc46cb8cce9",
+  "name" : "Profil információk hozzáadása",
+  "fullName" : "ForumTestPOM.add_profile_information",
+  "historyId" : "29b84f777c9f3049116c141c265f5eb2",
+  "time" : {
+    "start" : 1629807481028,
+    "stop" : 1629807484368,
+    "duration" : 3340
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629807484261,
+      "stop" : 1629807484360,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "7072@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_profile_information"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d71a74e12fbfb7a8",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629802924683,
+        "stop" : 1629802924685,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "658c93331114e735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629713117672,
+        "stop" : 1629713120969,
+        "duration" : 3297
+      }
+    }, {
+      "uid" : "1049aa09c0c01c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711802910,
+        "stop" : 1629711806265,
+        "duration" : 3355
+      }
+    }, {
+      "uid" : "537e382b61d8d195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711308133,
+        "stop" : 1629711311505,
+        "duration" : 3372
+      }
+    }, {
+      "uid" : "11c265c65736d9dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629441054111,
+        "stop" : 1629441057322,
+        "duration" : 3211
+      }
+    }, {
+      "uid" : "840ab47f619250b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629382562100,
+        "stop" : 1629382565504,
+        "duration" : 3404
+      }
+    }, {
+      "uid" : "cc75f794b4a7b6d5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class=' css-k8o10q'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1629382487795,
+        "stop" : 1629382494628,
+        "duration" : 6833
+      }
+    }, {
+      "uid" : "5aa7942c3145d3a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629356559161,
+        "stop" : 1629356561671,
+        "duration" : 2510
+      }
+    }, {
+      "uid" : "6a7d716a3edcc80f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629355778114,
+        "stop" : 1629355780592,
+        "duration" : 2478
+      }
+    }, {
+      "uid" : "d740fcdb607e9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290835783,
+        "stop" : 1629290838183,
+        "duration" : 2400
+      }
+    }, {
+      "uid" : "1a01d4f83a787f22",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629290700830,
+        "stop" : 1629290700833,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "7aff8936b1d73dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290539675,
+        "stop" : 1629290542325,
+        "duration" : 2650
+      }
+    }, {
+      "uid" : "3cbf7920113615eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629102640569,
+        "stop" : 1629102642299,
+        "duration" : 1730
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "e44beb5a8e2074ad",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/47//#testresult/e44beb5a8e2074ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "58e39a3828ac12c8",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/46//#testresult/58e39a3828ac12c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "75e6eb151000ee0e",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/45//#testresult/75e6eb151000ee0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "a56d1cbf0b5f7b98",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/44//#testresult/a56d1cbf0b5f7b98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "ea1f1a641e8fdf45",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/43//#testresult/ea1f1a641e8fdf45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "3496e5904d6005d6",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/42//#testresult/3496e5904d6005d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "b415766bb942844c",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/b415766bb942844c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "b2796a2354efa218",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/b2796a2354efa218",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "539b0ba98e2bf940",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/539b0ba98e2bf940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "be8b14266205e849",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/be8b14266205e849",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "d7596c48b66516c1",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/37//#testresult/d7596c48b66516c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807481028,
+          "stop" : 1629807484368,
+          "duration" : 3340
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7822bc46cb8cce9.json",
+  "parameterValues" : [ ]
+}

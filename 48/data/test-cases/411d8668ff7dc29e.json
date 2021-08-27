@@ -1,0 +1,85 @@
+{
+  "uid" : "411d8668ff7dc29e",
+  "name" : "Profil információk hozzáadása",
+  "fullName" : "ForumTest.add_profile_information",
+  "historyId" : "27c5df06ab4c59b1e2581ec1ad395f4a",
+  "time" : {
+    "start" : 1629898536079,
+    "stop" : 1629898548960,
+    "duration" : 12881
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629898536080,
+      "stop" : 1629898540824,
+      "duration" : 4744
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629898544817,
+      "stop" : 1629898548960,
+      "duration" : 4143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "9468@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_profile_information"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "411d8668ff7dc29e.json",
+  "parameterValues" : [ ]
+}

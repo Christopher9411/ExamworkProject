@@ -1,0 +1,70 @@
+{
+  "uid" : "2c7ca0f68a082ee5",
+  "name" : "Profil információk módosítása",
+  "fullName" : "ForumTestPOM.modify_profile_informations",
+  "historyId" : "d2b5efbb69b215a96418d04f8c9c1e21",
+  "time" : {
+    "start" : 1629713128109,
+    "stop" : 1629713135812,
+    "duration" : 7703
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629713135748,
+      "stop" : 1629713135802,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "8796@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "modify_profile_informations"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c7ca0f68a082ee5.json",
+  "parameterValues" : [ ]
+}

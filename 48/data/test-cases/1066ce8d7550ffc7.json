@@ -1,0 +1,85 @@
+{
+  "uid" : "1066ce8d7550ffc7",
+  "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+  "fullName" : "ForumTest.Print_text_from_main_page",
+  "historyId" : "1f4d6db87e10a9f699e5e72cba963403",
+  "time" : {
+    "start" : 1629898520064,
+    "stop" : 1629898524927,
+    "duration" : 4863
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629898520065,
+      "stop" : 1629898524840,
+      "duration" : 4775
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629898524870,
+      "stop" : 1629898524926,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "9468@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Print_text_from_main_page"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1066ce8d7550ffc7.json",
+  "parameterValues" : [ ]
+}

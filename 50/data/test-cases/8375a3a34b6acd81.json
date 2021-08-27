@@ -1,0 +1,334 @@
+{
+  "uid" : "8375a3a34b6acd81",
+  "name" : "Profil információk hozzáadása",
+  "fullName" : "ForumTest.add_profile_information",
+  "historyId" : "27c5df06ab4c59b1e2581ec1ad395f4a",
+  "time" : {
+    "start" : 1630047559502,
+    "stop" : 1630047575232,
+    "duration" : 15730
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat Settings.Add_data(Settings.java:29)\n\tat ForumTest.add_profile_information(ForumTest.java:122)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az33-712', ip: '10.1.0.126', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.7LIlvb}, goog:chromeOptions: {debuggerAddress: localhost:32971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b12d301a9278441bcca18395dfb7824e\n*** Element info: {Using=css selector, value=tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1)}\n\tat jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 65 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1630047559502,
+      "stop" : 1630047566830,
+      "duration" : 7328
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1630047575119,
+      "stop" : 1630047575231,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az33-712"
+  }, {
+    "name" : "thread",
+    "value" : "3287@fv-az33-712.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_profile_information"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e9aed8feb84d619c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630047160121,
+        "stop" : 1630047168025,
+        "duration" : 7904
+      }
+    }, {
+      "uid" : "eda8f114e858ba7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629981266507,
+        "stop" : 1629981274367,
+        "duration" : 7860
+      }
+    }, {
+      "uid" : "d2f42bfbb7e25723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629980661751,
+        "stop" : 1629980669453,
+        "duration" : 7702
+      }
+    }, {
+      "uid" : "c4ffcc69f6571920",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00682A33+2501171]\n\tOrdinal0 [0x0061D1C1+2085313]\n\tOrdinal0 [0x00521FA8+1056680]\n\tOrdinal0 [0x0051316E+995694]\n\tOrdinal0 [0x005231C0+1061312]\n\tOrdinal0 [0x0056A93B+1354043]\n\tOrdinal0 [0x0056960A+1349130]\n\tOrdinal0 [0x0056551B+1332507]\n\tOrdinal0 [0x00541D74+1187188]\n\tOrdinal0 [0x00542BD9+1190873]\n\tGetHandleVerifier [0x007FEFE6+1504438]\n\tGetHandleVerifier [0x008ADDA5+2220661]\n\tGetHandleVerifier [0x00705589+481881]\n\tGetHandleVerifier [0x00704639+477961]\n\tOrdinal0 [0x006228BD+2107581]\n\tOrdinal0 [0x00626728+2123560]\n\tOrdinal0 [0x00626862+2123874]\n\tOrdinal0 [0x0062FA81+2161281]\n\tBaseThreadInitThunk [0x7647FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77607A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77607A4E+238]\n",
+      "time" : {
+        "start" : 1629979383444,
+        "stop" : 1629979383843,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "657c3e8542ed1dbd",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974689503,
+        "stop" : 1629974690767,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "3ffc77b220545178",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974676349,
+        "stop" : 1629974677426,
+        "duration" : 1077
+      }
+    }, {
+      "uid" : "7fba72a795138fbf",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974578215,
+        "stop" : 1629974578612,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "15ab71711eb6c774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629974481798,
+        "stop" : 1629974490375,
+        "duration" : 8577
+      }
+    }, {
+      "uid" : "ea6e0a36473b3bb2",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974129601,
+        "stop" : 1629974129997,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "af27d99e38dfd403",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00692A33+2501171]\n\tOrdinal0 [0x0062D1C1+2085313]\n\tOrdinal0 [0x00531FA8+1056680]\n\tOrdinal0 [0x0052316E+995694]\n\tOrdinal0 [0x005331C0+1061312]\n\tOrdinal0 [0x0057A93B+1354043]\n\tOrdinal0 [0x0057960A+1349130]\n\tOrdinal0 [0x0057551B+1332507]\n\tOrdinal0 [0x00551D74+1187188]\n\tOrdinal0 [0x00552BD9+1190873]\n\tGetHandleVerifier [0x0080EFE6+1504438]\n\tGetHandleVerifier [0x008BDDA5+2220661]\n\tGetHandleVerifier [0x00715589+481881]\n\tGetHandleVerifier [0x00714639+477961]\n\tOrdinal0 [0x006328BD+2107581]\n\tOrdinal0 [0x00636728+2123560]\n\tOrdinal0 [0x00636862+2123874]\n\tOrdinal0 [0x0063FA81+2161281]\n\tBaseThreadInitThunk [0x75BDFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77257A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77257A4E+238]\n",
+      "time" : {
+        "start" : 1629973909109,
+        "stop" : 1629973909494,
+        "duration" : 385
+      }
+    }, {
+      "uid" : "7f99aa44a4f7a4b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629973735836,
+        "stop" : 1629973744266,
+        "duration" : 8430
+      }
+    }, {
+      "uid" : "1a75735a51bfe2a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629898536079,
+        "stop" : 1629898548960,
+        "duration" : 12881
+      }
+    }, {
+      "uid" : "3993ff25750d8abb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629889858442,
+        "stop" : 1629889869996,
+        "duration" : 11554
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 13,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "5314991d5f3e09cb",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/49//#testresult/5314991d5f3e09cb",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1630047511054,
+          "stop" : 1630047526627,
+          "duration" : 15573
+        }
+      }, {
+        "uid" : "e009b7ea819b6cff",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/48//#testresult/e009b7ea819b6cff",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1630035477108,
+          "stop" : 1630035492458,
+          "duration" : 15350
+        }
+      }, {
+        "uid" : "75835b079db6a109",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/47//#testresult/75835b079db6a109",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1630035449417,
+          "stop" : 1630035464994,
+          "duration" : 15577
+        }
+      }, {
+        "uid" : "ac5fb9621cb9a358",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/46//#testresult/ac5fb9621cb9a358",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: tr.mainsettings:nth-child(7) > td:nth-child(2) > textarea:nth-child(1) (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1629981532863,
+          "stop" : 1629981548422,
+          "duration" : 15559
+        }
+      }, {
+        "uid" : "e0d14133f8256078",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/45//#testresult/e0d14133f8256078",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-462', ip: '10.1.0.222', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x562c6991ca63 <unknown>\n#1 0x562c69691458 <unknown>\n#2 0x562c696b42e3 <unknown>\n#3 0x562c696afe9f <unknown>\n#4 0x562c696e9b72 <unknown>\n#5 0x562c696e3fd3 <unknown>\n#6 0x562c696ba514 <unknown>\n#7 0x562c696bb505 <unknown>\n#8 0x562c69948e2e <unknown>\n#9 0x562c6995e886 <unknown>\n#10 0x562c69949d75 <unknown>\n#11 0x562c6995fd94 <unknown>\n#12 0x562c699408eb <unknown>\n#13 0x562c6997acd8 <unknown>\n#14 0x562c6997ae58 <unknown>\n#15 0x562c69994dfd <unknown>\n#16 0x7ff18a3c3609 start_thread\n",
+        "time" : {
+          "start" : 1629980971502,
+          "stop" : 1629980971662,
+          "duration" : 160
+        }
+      }, {
+        "uid" : "283276765b7cd908",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/44//#testresult/283276765b7cd908",
+        "status" : "broken",
+        "statusDetails" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-461', ip: '10.1.0.37', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5647c762ea63 <unknown>\n#1 0x5647c73a3458 <unknown>\n#2 0x5647c73c9eed <unknown>\n#3 0x5647c73c56c3 <unknown>\n#4 0x5647c73c1e9f <unknown>\n#5 0x5647c73fbb72 <unknown>\n#6 0x5647c73f5fd3 <unknown>\n#7 0x5647c73cc514 <unknown>\n#8 0x5647c73cd505 <unknown>\n#9 0x5647c765ae2e <unknown>\n#10 0x5647c7670886 <unknown>\n#11 0x5647c765bd75 <unknown>\n#12 0x5647c7671d94 <unknown>\n#13 0x5647c76528eb <unknown>\n#14 0x5647c768ccd8 <unknown>\n#15 0x5647c768ce58 <unknown>\n#16 0x5647c76a6dfd <unknown>\n#17 0x7f814ddee609 start_thread\n",
+        "time" : {
+          "start" : 1629974224019,
+          "stop" : 1629974284847,
+          "duration" : 60828
+        }
+      }, {
+        "uid" : "8a75b5e216ca5080",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/43//#testresult/8a75b5e216ca5080",
+        "status" : "broken",
+        "statusDetails" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-462', ip: '10.1.0.25', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55c06b471a63 <unknown>\n#1 0x55c06b1e6458 <unknown>\n#2 0x55c06b20ceed <unknown>\n#3 0x55c06b2086c3 <unknown>\n#4 0x55c06b204e9f <unknown>\n#5 0x55c06b23eb72 <unknown>\n#6 0x55c06b238fd3 <unknown>\n#7 0x55c06b20f514 <unknown>\n#8 0x55c06b210505 <unknown>\n#9 0x55c06b49de2e <unknown>\n#10 0x55c06b4b3886 <unknown>\n#11 0x55c06b49ed75 <unknown>\n#12 0x55c06b4b4d94 <unknown>\n#13 0x55c06b4958eb <unknown>\n#14 0x55c06b4cfcd8 <unknown>\n#15 0x55c06b4cfe58 <unknown>\n#16 0x55c06b4e9dfd <unknown>\n#17 0x7f3f47d03609 start_thread\n",
+        "time" : {
+          "start" : 1629964901661,
+          "stop" : 1629964962231,
+          "duration" : 60570
+        }
+      }, {
+        "uid" : "c4f7a76aa0540d28",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/42//#testresult/c4f7a76aa0540d28",
+        "status" : "broken",
+        "statusDetails" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.32', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a8ffb00a63 <unknown>\n#1 0x55a8ff875458 <unknown>\n#2 0x55a8ff89beed <unknown>\n#3 0x55a8ff8976c3 <unknown>\n#4 0x55a8ff893e9f <unknown>\n#5 0x55a8ff8cdb72 <unknown>\n#6 0x55a8ff8c7fd3 <unknown>\n#7 0x55a8ff89e514 <unknown>\n#8 0x55a8ff89f505 <unknown>\n#9 0x55a8ffb2ce2e <unknown>\n#10 0x55a8ffb42886 <unknown>\n#11 0x55a8ffb2dd75 <unknown>\n#12 0x55a8ffb43d94 <unknown>\n#13 0x55a8ffb248eb <unknown>\n#14 0x55a8ffb5ecd8 <unknown>\n#15 0x55a8ffb5ee58 <unknown>\n#16 0x55a8ffb78dfd <unknown>\n#17 0x7f9c4afff609 start_thread\n",
+        "time" : {
+          "start" : 1629901396874,
+          "stop" : 1629901457135,
+          "duration" : 60261
+        }
+      }, {
+        "uid" : "fcd20197206072df",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/fcd20197206072df",
+        "status" : "broken",
+        "statusDetails" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-204', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5590ffb0aa63 <unknown>\n#1 0x5590ff87f458 <unknown>\n#2 0x5590ff8a5eed <unknown>\n#3 0x5590ff8a16c3 <unknown>\n#4 0x5590ff89de9f <unknown>\n#5 0x5590ff8d7b72 <unknown>\n#6 0x5590ff8d1fd3 <unknown>\n#7 0x5590ff8a8514 <unknown>\n#8 0x5590ff8a9505 <unknown>\n#9 0x5590ffb36e2e <unknown>\n#10 0x5590ffb4c886 <unknown>\n#11 0x5590ffb37d75 <unknown>\n#12 0x5590ffb4dd94 <unknown>\n#13 0x5590ffb2e8eb <unknown>\n#14 0x5590ffb68cd8 <unknown>\n#15 0x5590ffb68e58 <unknown>\n#16 0x5590ffb82dfd <unknown>\n#17 0x7fa807b08609 start_thread\n",
+        "time" : {
+          "start" : 1629899124093,
+          "stop" : 1629899185011,
+          "duration" : 60918
+        }
+      }, {
+        "uid" : "21c15709ec25e79f",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/21c15709ec25e79f",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564b8b115a63 <unknown>\n#1 0x564b8ae8a458 <unknown>\n#2 0x564b8aead2e3 <unknown>\n#3 0x564b8aea8e9f <unknown>\n#4 0x564b8aee2b72 <unknown>\n#5 0x564b8aedcfd3 <unknown>\n#6 0x564b8aeb3514 <unknown>\n#7 0x564b8aeb4505 <unknown>\n#8 0x564b8b141e2e <unknown>\n#9 0x564b8b157886 <unknown>\n#10 0x564b8b142d75 <unknown>\n#11 0x564b8b158d94 <unknown>\n#12 0x564b8b1398eb <unknown>\n#13 0x564b8b173cd8 <unknown>\n#14 0x564b8b173e58 <unknown>\n#15 0x564b8b18ddfd <unknown>\n#16 0x7ff839ab1609 start_thread\n",
+        "time" : {
+          "start" : 1629897861287,
+          "stop" : 1629897862352,
+          "duration" : 1065
+        }
+      }, {
+        "uid" : "799145fe5b838da6",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/799145fe5b838da6",
+        "status" : "broken",
+        "statusDetails" : "unknown error: unable to discover open pages\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.109', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5621c19aca63 <unknown>\n#1 0x5621c1721458 <unknown>\n#2 0x5621c1747eed <unknown>\n#3 0x5621c17436c3 <unknown>\n#4 0x5621c173fe9f <unknown>\n#5 0x5621c1779b72 <unknown>\n#6 0x5621c1773fd3 <unknown>\n#7 0x5621c174a514 <unknown>\n#8 0x5621c174b505 <unknown>\n#9 0x5621c19d8e2e <unknown>\n#10 0x5621c19ee886 <unknown>\n#11 0x5621c19d9d75 <unknown>\n#12 0x5621c19efd94 <unknown>\n#13 0x5621c19d08eb <unknown>\n#14 0x5621c1a0acd8 <unknown>\n#15 0x5621c1a0ae58 <unknown>\n#16 0x5621c1a24dfd <unknown>\n#17 0x7f3df2c83609 start_thread\n",
+        "time" : {
+          "start" : 1629893410416,
+          "stop" : 1629893471283,
+          "duration" : 60867
+        }
+      }, {
+        "uid" : "b1add97b5941d732",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/b1add97b5941d732",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55980e081a63 <unknown>\n#1 0x55980ddf6458 <unknown>\n#2 0x55980de192e3 <unknown>\n#3 0x55980de14e9f <unknown>\n#4 0x55980de4eb72 <unknown>\n#5 0x55980de48fd3 <unknown>\n#6 0x55980de1f514 <unknown>\n#7 0x55980de20505 <unknown>\n#8 0x55980e0ade2e <unknown>\n#9 0x55980e0c3886 <unknown>\n#10 0x55980e0aed75 <unknown>\n#11 0x55980e0c4d94 <unknown>\n#12 0x55980e0a58eb <unknown>\n#13 0x55980e0dfcd8 <unknown>\n#14 0x55980e0dfe58 <unknown>\n#15 0x55980e0f9dfd <unknown>\n#16 0x7f4d3898b609 start_thread\n",
+        "time" : {
+          "start" : 1629889720097,
+          "stop" : 1629889721168,
+          "duration" : 1071
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8375a3a34b6acd81.json",
+  "parameterValues" : [ ]
+}

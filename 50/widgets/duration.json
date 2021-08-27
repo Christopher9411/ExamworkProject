@@ -1,0 +1,241 @@
+[ {
+  "uid" : "cbce53395529e0f",
+  "name" : "Fórum keresési találatok kilistázása",
+  "time" : {
+    "start" : 1630047479527,
+    "stop" : 1630047489071,
+    "duration" : 9544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8590c83b68b169aa",
+  "name" : "Fórum keresési találatokon keresztül történő loopolás",
+  "time" : {
+    "start" : 1629807456637,
+    "stop" : 1629807471222,
+    "duration" : 14585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d40b8f4936f61d3",
+  "name" : "Regisztrálás az Index fórumra",
+  "time" : {
+    "start" : 1629802924592,
+    "stop" : 1629802924595,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1249a3c8c44d0c9",
+  "name" : "Belépés az Index fórumra",
+  "time" : {
+    "start" : 1630047517397,
+    "stop" : 1630047527894,
+    "duration" : 10497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8375a3a34b6acd81",
+  "name" : "Profil információk hozzáadása",
+  "time" : {
+    "start" : 1630047559502,
+    "stop" : 1630047575232,
+    "duration" : 15730
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f6c16fac24f4cb21",
+  "name" : "Profil információk eltávolítása",
+  "time" : {
+    "start" : 1630047496597,
+    "stop" : 1630047517388,
+    "duration" : 20791
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "da47732a97b57470",
+  "name" : "Bejelentkezési adatok beolvasása fájlból",
+  "time" : {
+    "start" : 1629807317799,
+    "stop" : 1629807323575,
+    "duration" : 5776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "604cb330c3aa9efa",
+  "name" : "Profil információk eltávolítása",
+  "time" : {
+    "start" : 1629807493143,
+    "stop" : 1629807496626,
+    "duration" : 3483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a64bd251ac521f0",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "time" : {
+    "start" : 1629807333294,
+    "stop" : 1629807335250,
+    "duration" : 1956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6145d4e3f5c5d610",
+  "name" : "Kijelentkezés az Index fórumról",
+  "time" : {
+    "start" : 1630047527899,
+    "stop" : 1630047541637,
+    "duration" : 13738
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "953e06762a53fa",
+  "name" : "Profil információk módosítása",
+  "time" : {
+    "start" : 1630047417181,
+    "stop" : 1630047450225,
+    "duration" : 33044
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "12c390a49c1088e4",
+  "name" : "Regisztrálás az Index fórumra",
+  "time" : {
+    "start" : 1630047496592,
+    "stop" : 1630047496592,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cc2b9d5f256c674e",
+  "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+  "time" : {
+    "start" : 1630047541642,
+    "stop" : 1630047549088,
+    "duration" : 7446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58856a9e0dd19321",
+  "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+  "time" : {
+    "start" : 1629807504712,
+    "stop" : 1629807505308,
+    "duration" : 596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e28fc4d3d77af3",
+  "name" : "Fórum keresési találatokon keresztül történő loopolás",
+  "time" : {
+    "start" : 1630047459841,
+    "stop" : 1630047479518,
+    "duration" : 19677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95d4b920c7ffa983",
+  "name" : "Belépés az Index fórumra",
+  "time" : {
+    "start" : 1629802963723,
+    "stop" : 1629802965842,
+    "duration" : 2119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c87fad0448642fac",
+  "name" : "Szöveg kinyerése weboldalról és console-ba való kiprintelése",
+  "time" : {
+    "start" : 1629806379068,
+    "stop" : 1629806379299,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea4bb368331112ce",
+  "name" : "Profil információk módosítása",
+  "time" : {
+    "start" : 1629802920738,
+    "stop" : 1629802924426,
+    "duration" : 3688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b4b353ce53ca459",
+  "name" : "Fórum keresési találatok kilistázása",
+  "time" : {
+    "start" : 1629807445028,
+    "stop" : 1629807446943,
+    "duration" : 1915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "132d28d78a95ee3e",
+  "name" : "Bejelentkezési adatok beolvasása fájlból",
+  "time" : {
+    "start" : 1630047549092,
+    "stop" : 1630047559497,
+    "duration" : 10405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c83ad0f7daed61e",
+  "name" : "Adatvédelmi információk szövegfájlba történő kiírása",
+  "time" : {
+    "start" : 1630047489080,
+    "stop" : 1630047496587,
+    "duration" : 7507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95a57c069471d234",
+  "name" : "Profil információk hozzáadása",
+  "time" : {
+    "start" : 1629807481028,
+    "stop" : 1629807484368,
+    "duration" : 3340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b53f453757c5b1c",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "time" : {
+    "start" : 1630047450308,
+    "stop" : 1630047459832,
+    "duration" : 9524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9951fba36b94c50a",
+  "name" : "Kijelentkezés az Index fórumról",
+  "time" : {
+    "start" : 1629807432796,
+    "stop" : 1629807436436,
+    "duration" : 3640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

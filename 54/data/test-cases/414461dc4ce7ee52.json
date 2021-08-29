@@ -1,0 +1,359 @@
+{
+  "uid" : "414461dc4ce7ee52",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "fullName" : "ForumTest.read_multiple_info",
+  "historyId" : "95af5fda0363ff293ef30a9b05b14486",
+  "time" : {
+    "start" : 1630211604832,
+    "stop" : 1630211614324,
+    "duration" : 9492
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1630211604833,
+      "stop" : 1630211612102,
+      "duration" : 7269
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1630211614215,
+      "stop" : 1630211614323,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-272"
+  }, {
+    "name" : "thread",
+    "value" : "3178@fv-az77-272.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "read_multiple_info"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "645ef1fb048893cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630047410108,
+        "stop" : 1630047416291,
+        "duration" : 6183
+      }
+    }, {
+      "uid" : "1df6b93ea75c7718",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630047095054,
+        "stop" : 1630047101419,
+        "duration" : 6365
+      }
+    }, {
+      "uid" : "7de76b49f48ef07d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629981202707,
+        "stop" : 1629981208570,
+        "duration" : 5863
+      }
+    }, {
+      "uid" : "4c9b3a514cc980d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629980570265,
+        "stop" : 1629980581264,
+        "duration" : 10999
+      }
+    }, {
+      "uid" : "138e9058c419fac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629979349309,
+        "stop" : 1629979355400,
+        "duration" : 6091
+      }
+    }, {
+      "uid" : "a7eb56d02f78a2ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629974544187,
+        "stop" : 1629974550321,
+        "duration" : 6134
+      }
+    }, {
+      "uid" : "232b9f4a78fef301",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629974451150,
+        "stop" : 1629974457862,
+        "duration" : 6712
+      }
+    }, {
+      "uid" : "bb67bc174fed4c29",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00802A33+2501171]\n\tOrdinal0 [0x0079D1C1+2085313]\n\tOrdinal0 [0x006A1FA8+1056680]\n\tOrdinal0 [0x0069316E+995694]\n\tOrdinal0 [0x006A31C0+1061312]\n\tOrdinal0 [0x006EA93B+1354043]\n\tOrdinal0 [0x006E960A+1349130]\n\tOrdinal0 [0x006E551B+1332507]\n\tOrdinal0 [0x006C1D74+1187188]\n\tOrdinal0 [0x006C2BD9+1190873]\n\tGetHandleVerifier [0x0097EFE6+1504438]\n\tGetHandleVerifier [0x00A2DDA5+2220661]\n\tGetHandleVerifier [0x00885589+481881]\n\tGetHandleVerifier [0x00884639+477961]\n\tOrdinal0 [0x007A28BD+2107581]\n\tOrdinal0 [0x007A6728+2123560]\n\tOrdinal0 [0x007A6862+2123874]\n\tOrdinal0 [0x007AFA81+2161281]\n\tBaseThreadInitThunk [0x7655FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777E7A4E+238]\n",
+      "time" : {
+        "start" : 1629974181905,
+        "stop" : 1629974182931,
+        "duration" : 1026
+      }
+    }, {
+      "uid" : "c851245bb3323d40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629974095435,
+        "stop" : 1629974101563,
+        "duration" : 6128
+      }
+    }, {
+      "uid" : "b82a72366cec35a0",
+      "status" : "broken",
+      "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00692A33+2501171]\n\tOrdinal0 [0x0062D1C1+2085313]\n\tOrdinal0 [0x00531FA8+1056680]\n\tOrdinal0 [0x0052316E+995694]\n\tOrdinal0 [0x005331C0+1061312]\n\tOrdinal0 [0x0057A93B+1354043]\n\tOrdinal0 [0x0057960A+1349130]\n\tOrdinal0 [0x0057551B+1332507]\n\tOrdinal0 [0x00551D74+1187188]\n\tOrdinal0 [0x00552BD9+1190873]\n\tGetHandleVerifier [0x0080EFE6+1504438]\n\tGetHandleVerifier [0x008BDDA5+2220661]\n\tGetHandleVerifier [0x00715589+481881]\n\tGetHandleVerifier [0x00714639+477961]\n\tOrdinal0 [0x006328BD+2107581]\n\tOrdinal0 [0x00636728+2123560]\n\tOrdinal0 [0x00636862+2123874]\n\tOrdinal0 [0x0063FA81+2161281]\n\tBaseThreadInitThunk [0x75BDFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77257A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77257A4E+238]\n",
+      "time" : {
+        "start" : 1629973904655,
+        "stop" : 1629973905059,
+        "duration" : 404
+      }
+    }, {
+      "uid" : "390d2f405147240a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629973723106,
+        "stop" : 1629973730173,
+        "duration" : 7067
+      }
+    }, {
+      "uid" : "cddc57c57bbff26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629898451660,
+        "stop" : 1629898461965,
+        "duration" : 10305
+      }
+    }, {
+      "uid" : "cfb629fe66e1dd58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629889773356,
+        "stop" : 1629889779376,
+        "duration" : 6020
+      }
+    }, {
+      "uid" : "463c5c877dcea502",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629889199997,
+        "stop" : 1629889210402,
+        "duration" : 10405
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "e1dcc7a95e8b0a2",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/53//#testresult/e1dcc7a95e8b0a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630211591287,
+          "stop" : 1630211601073,
+          "duration" : 9786
+        }
+      }, {
+        "uid" : "814c91fc91f54b60",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/52//#testresult/814c91fc91f54b60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630129978148,
+          "stop" : 1630129987678,
+          "duration" : 9530
+        }
+      }, {
+        "uid" : "508a7f80f2330f5b",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/51//#testresult/508a7f80f2330f5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630129427388,
+          "stop" : 1630129437183,
+          "duration" : 9795
+        }
+      }, {
+        "uid" : "7b53f453757c5b1c",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/50//#testresult/7b53f453757c5b1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630047450308,
+          "stop" : 1630047459832,
+          "duration" : 9524
+        }
+      }, {
+        "uid" : "bae235563b8af1e3",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/49//#testresult/bae235563b8af1e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630047405176,
+          "stop" : 1630047414622,
+          "duration" : 9446
+        }
+      }, {
+        "uid" : "fab74e817d6ed073",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/48//#testresult/fab74e817d6ed073",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630035374399,
+          "stop" : 1630035383362,
+          "duration" : 8963
+        }
+      }, {
+        "uid" : "1e6ce78c9ba5ea5c",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/47//#testresult/1e6ce78c9ba5ea5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630035341902,
+          "stop" : 1630035352704,
+          "duration" : 10802
+        }
+      }, {
+        "uid" : "52e7ee4a3f702492",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/46//#testresult/52e7ee4a3f702492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629981429389,
+          "stop" : 1629981438408,
+          "duration" : 9019
+        }
+      }, {
+        "uid" : "faa19109e6a1e8b7",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/45//#testresult/faa19109e6a1e8b7",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-462', ip: '10.1.0.222', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564e7a612a63 <unknown>\n#1 0x564e7a387458 <unknown>\n#2 0x564e7a3aa2e3 <unknown>\n#3 0x564e7a3a5e9f <unknown>\n#4 0x564e7a3dfb72 <unknown>\n#5 0x564e7a3d9fd3 <unknown>\n#6 0x564e7a3b0514 <unknown>\n#7 0x564e7a3b1505 <unknown>\n#8 0x564e7a63ee2e <unknown>\n#9 0x564e7a654886 <unknown>\n#10 0x564e7a63fd75 <unknown>\n#11 0x564e7a655d94 <unknown>\n#12 0x564e7a6368eb <unknown>\n#13 0x564e7a670cd8 <unknown>\n#14 0x564e7a670e58 <unknown>\n#15 0x564e7a68adfd <unknown>\n#16 0x7f64fa490609 start_thread\n",
+        "time" : {
+          "start" : 1629980969714,
+          "stop" : 1629980970045,
+          "duration" : 331
+        }
+      }, {
+        "uid" : "8c6ad7b0cc458144",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/44//#testresult/8c6ad7b0cc458144",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629973917903,
+          "stop" : 1629973927004,
+          "duration" : 9101
+        }
+      }, {
+        "uid" : "22a5f10438124141",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/43//#testresult/22a5f10438124141",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629964587750,
+          "stop" : 1629964600617,
+          "duration" : 12867
+        }
+      }, {
+        "uid" : "320756c26dd30825",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/42//#testresult/320756c26dd30825",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629901091373,
+          "stop" : 1629901100719,
+          "duration" : 9346
+        }
+      }, {
+        "uid" : "f251b9906140b0e4",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/f251b9906140b0e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629898817567,
+          "stop" : 1629898827261,
+          "duration" : 9694
+        }
+      }, {
+        "uid" : "4db0d21844265449",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/4db0d21844265449",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-272', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x560c3d210a63 <unknown>\n#1 0x560c3cf85458 <unknown>\n#2 0x560c3cfa82e3 <unknown>\n#3 0x560c3cfa3e9f <unknown>\n#4 0x560c3cfddb72 <unknown>\n#5 0x560c3cfd7fd3 <unknown>\n#6 0x560c3cfae514 <unknown>\n#7 0x560c3cfaf505 <unknown>\n#8 0x560c3d23ce2e <unknown>\n#9 0x560c3d252886 <unknown>\n#10 0x560c3d23dd75 <unknown>\n#11 0x560c3d253d94 <unknown>\n#12 0x560c3d2348eb <unknown>\n#13 0x560c3d26ecd8 <unknown>\n#14 0x560c3d26ee58 <unknown>\n#15 0x560c3d288dfd <unknown>\n#16 0x7f07e5ae3609 start_thread\n",
+        "time" : {
+          "start" : 1629897851369,
+          "stop" : 1629897852518,
+          "duration" : 1149
+        }
+      }, {
+        "uid" : "264c7beb39b42ec6",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/264c7beb39b42ec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629893104604,
+          "stop" : 1629893113753,
+          "duration" : 9149
+        }
+      }, {
+        "uid" : "89b1ef0245b1477d",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/89b1ef0245b1477d",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (chrome not reachable)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-263', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x562650571a63 <unknown>\n#1 0x5626502e6458 <unknown>\n#2 0x5626503092e3 <unknown>\n#3 0x562650304e9f <unknown>\n#4 0x56265033eb72 <unknown>\n#5 0x562650338fd3 <unknown>\n#6 0x56265030f514 <unknown>\n#7 0x562650310505 <unknown>\n#8 0x56265059de2e <unknown>\n#9 0x5626505b3886 <unknown>\n#10 0x56265059ed75 <unknown>\n#11 0x5626505b4d94 <unknown>\n#12 0x5626505958eb <unknown>\n#13 0x5626505cfcd8 <unknown>\n#14 0x5626505cfe58 <unknown>\n#15 0x5626505e9dfd <unknown>\n#16 0x7f8671d88609 start_thread\n",
+        "time" : {
+          "start" : 1629889710232,
+          "stop" : 1629889711429,
+          "duration" : 1197
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "414461dc4ce7ee52.json",
+  "parameterValues" : [ ]
+}

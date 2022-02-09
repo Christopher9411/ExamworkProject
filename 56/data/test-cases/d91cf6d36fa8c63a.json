@@ -1,0 +1,420 @@
+{
+  "uid" : "d91cf6d36fa8c63a",
+  "name" : "Egyidejűleg több keresési fogalom beolvasása fájlból",
+  "fullName" : "ForumTestPOM.read_multiple_info",
+  "historyId" : "7fbc69ff4746d466546ba23f1b7b9fd2",
+  "time" : {
+    "start" : 1629807333294,
+    "stop" : 1629807335250,
+    "duration" : 1956
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629807335136,
+      "stop" : 1629807335241,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JJVKPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "17772@DESKTOP-JJVKPMQ.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "read_multiple_info"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTestPOM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dcc7ef8c19d45095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629807255377,
+        "stop" : 1629807257531,
+        "duration" : 2154
+      }
+    }, {
+      "uid" : "df855012699bd725",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629802924515,
+        "stop" : 1629802924530,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "f1b14966f3425817",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629713108433,
+        "stop" : 1629713110183,
+        "duration" : 1750
+      }
+    }, {
+      "uid" : "7d88f9b863546198",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711793403,
+        "stop" : 1629711795183,
+        "duration" : 1780
+      }
+    }, {
+      "uid" : "5d0fb08537ab136e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629711291783,
+        "stop" : 1629711293802,
+        "duration" : 2019
+      }
+    }, {
+      "uid" : "3eb6d6e5734b5922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629441040588,
+        "stop" : 1629441042515,
+        "duration" : 1927
+      }
+    }, {
+      "uid" : "126ebd95a94a37b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629382386369,
+        "stop" : 1629382388199,
+        "duration" : 1830
+      }
+    }, {
+      "uid" : "a41212b3e072e83d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629356550453,
+        "stop" : 1629356551617,
+        "duration" : 1164
+      }
+    }, {
+      "uid" : "7ba3d71cc9cd7197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629355818869,
+        "stop" : 1629355820136,
+        "duration" : 1267
+      }
+    }, {
+      "uid" : "3f95d3853d31c8f4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#naviheader > div:nth-child(1) > div:nth-child(1) > a\"}\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:52298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c3e3b65a3b58790da797af33b67a1f97\n*** Element info: {Using=css selector, value=#naviheader > div:nth-child(1) > div:nth-child(1) > a}",
+      "time" : {
+        "start" : 1629355767391,
+        "stop" : 1629355767825,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "de36c58ef301f5f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#naviheader > div:nth-child(1) > div:nth-child(1) > a\"}\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:63469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d0fc6276ab6ee72225ce562647d9d275\n*** Element info: {Using=css selector, value=#naviheader > div:nth-child(1) > div:nth-child(1) > a}",
+      "time" : {
+        "start" : 1629355755840,
+        "stop" : 1629355756227,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "368f089970d16aba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629352291939,
+        "stop" : 1629352293137,
+        "duration" : 1198
+      }
+    }, {
+      "uid" : "34a25d496bde8cd2",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@class='navilinks']\"}\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: c:\\Users\\Tatsuya Hiroki\\App...}, goog:chromeOptions: {debuggerAddress: localhost:59197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c080cb7792fa20ba7f4e3b56156d74b\n*** Element info: {Using=xpath, value=//td[@class='navilinks']}",
+      "time" : {
+        "start" : 1629351552725,
+        "stop" : 1629351553119,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "ff6fcc5ea2fd9583",
+      "status" : "failed",
+      "statusDetails" : "expected:<...ps://forum.index.hu/[Search/fastSearchTopic]> but was:<...ps://forum.index.hu/[Topic/showTopicList]>",
+      "time" : {
+        "start" : 1629351084941,
+        "stop" : 1629351085327,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "5b7d9ec80d30d0fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349416376,
+        "stop" : 1629349417509,
+        "duration" : 1133
+      }
+    }, {
+      "uid" : "276486b2829d7b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349199106,
+        "stop" : 1629349200264,
+        "duration" : 1158
+      }
+    }, {
+      "uid" : "9959a38c00ece216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629349083512,
+        "stop" : 1629349084836,
+        "duration" : 1324
+      }
+    }, {
+      "uid" : "d59f183e46f5fb64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290824026,
+        "stop" : 1629290825498,
+        "duration" : 1472
+      }
+    }, {
+      "uid" : "e2a22cc647492197",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JJVKPMQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629290700616,
+        "stop" : 1629290700628,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "d1220dd66cda1f19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629102626162,
+        "stop" : 1629102627179,
+        "duration" : 1017
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "305d29b021f67706",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/55//#testresult/305d29b021f67706",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "ee5d378fb91e42e8",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/54//#testresult/ee5d378fb91e42e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "a1f595f4f2bef68b",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/53//#testresult/a1f595f4f2bef68b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "20c2112c9e5dc735",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/52//#testresult/20c2112c9e5dc735",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "8944c26506bd9f0b",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/51//#testresult/8944c26506bd9f0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "4a64bd251ac521f0",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/50//#testresult/4a64bd251ac521f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "f03e2b75d7133b78",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/49//#testresult/f03e2b75d7133b78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "54bcfb155a3c7b84",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/48//#testresult/54bcfb155a3c7b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "5c2c177b58ce6d39",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/47//#testresult/5c2c177b58ce6d39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "aefb79f04050f33d",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/46//#testresult/aefb79f04050f33d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "a618ffbc716d412d",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/45//#testresult/a618ffbc716d412d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "a65edbc01365a5f6",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/44//#testresult/a65edbc01365a5f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "97b6f3036683e382",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/43//#testresult/97b6f3036683e382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "f56428ec64d9f319",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/42//#testresult/f56428ec64d9f319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "fdf30e7a3c459385",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/41//#testresult/fdf30e7a3c459385",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "986b1aa98b8ab88f",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/40//#testresult/986b1aa98b8ab88f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "6f2b3e6764a580a3",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/39//#testresult/6f2b3e6764a580a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "b851596d3f180f96",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/38//#testresult/b851596d3f180f96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      }, {
+        "uid" : "ad2b5185fc4efe93",
+        "reportUrl" : "https://Christopher9411.github.io/ExamworkProject/37//#testresult/ad2b5185fc4efe93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807333294,
+          "stop" : 1629807335250,
+          "duration" : 1956
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d91cf6d36fa8c63a.json",
+  "parameterValues" : [ ]
+}

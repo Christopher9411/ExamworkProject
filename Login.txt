@@ -1,2 +1,2 @@
-email = nagy.kristof1994@gmail.com
+email = -II-
 password = teszt123
